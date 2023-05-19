@@ -1,0 +1,25 @@
+_id: req_cbfc532f35144f50b1156e5d49590d8b
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1681926297587
+created: 1681506743481
+url: "{{local_url}}/data/groups/0f7292dd-ce30-4e2d-8601-ba5fce29f4b3"
+name: Delete Data Group
+description: This endpoint allows you to delete an existing data group using its id
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743481
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

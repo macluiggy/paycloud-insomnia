@@ -1,0 +1,31 @@
+_id: req_add8fae488574219b4157010798c11d6
+type: Request
+parentId: fld_495bae72fe7d4d339eecca06523cb4a8
+modified: 1681506743159
+created: 1681506743159
+url: "{{local_url}}/output/retry/print"
+name: Retry Printing
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: transactionId
+      disabled: false
+      value: 66125643-d747-441e-a47d-55a3ac824297
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743159
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

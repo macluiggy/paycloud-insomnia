@@ -1,0 +1,63 @@
+_id: req_b8cf8faf19bf4f5cbb83d611674eb3b5
+type: Request
+parentId: fld_c00e2f9a90aa4444a024f5f59b333185
+modified: 1681506743333
+created: 1681506743333
+url: "{{local_url}}/data/details/filters"
+name: Update Detail Filters
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \        \"idDetailFilter\": \"c4f298fe-1d5c-49ef-b473-28d1345ebd45\",\r
+
+    \t\t\"detailMappingId\": \"508848c6-3516-4b51-af4e-cf27fce23e19\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": null,\r
+
+    \t\t\"then\": \"TAKE_VALUE_FROM\",\r
+
+    \        \"newInput\": \"4\"\r
+
+    \t},\r
+
+    \    {\r
+
+    \        \"idDetailFilter\": \"d7c4acdf-8fd0-4401-8170-11043e031cfc\",\r
+
+    \t\t\"detailMappingId\": \"508848c6-3516-4b51-af4e-cf27fce23e19\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": null,\r
+
+    \t\t\"then\": \"TAKE_VALUE_FROM\",\r
+
+    \        \"newInput\": \"4\"\r
+
+    \t}\r
+
+    ]\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743333
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_7fbd11dc8ec94c80afe85f9ee108d02d
+type: Request
+parentId: fld_b8fde20da3744af18fc03a6b6324be33
+modified: 1682721674905
+created: 1681506743164
+url: "{{local_url}}/currencies"
+name: All currencies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681506743164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

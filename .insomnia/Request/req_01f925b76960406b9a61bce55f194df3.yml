@@ -1,0 +1,25 @@
+_id: req_01f925b76960406b9a61bce55f194df3
+type: Request
+parentId: fld_73df2ed1f18f47b287fa658b11b53b43
+modified: 1681917026758
+created: 1681506743219
+url: "{{local_url}}/payees/8c81727c-9733-4302-a598-0d1baea18cd7"
+name: Update Payee
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

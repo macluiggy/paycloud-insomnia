@@ -1,0 +1,25 @@
+_id: req_37a60bbf234f4141a8139320e926caa6
+type: Request
+parentId: fld_709ce5878cdb4b2884d5a7a29c83a96d
+modified: 1681506743493
+created: 1681506743493
+url: "{{local_url}}/data/groups/52efdb00-3951-458d-bde3-0b87a4ddb8eb/logs/download"
+name: Data Group Logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

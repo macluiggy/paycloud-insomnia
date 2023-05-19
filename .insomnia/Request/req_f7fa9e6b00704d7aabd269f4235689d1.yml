@@ -1,0 +1,32 @@
+_id: req_f7fa9e6b00704d7aabd269f4235689d1
+type: Request
+parentId: fld_8fb623dd91a14ed4a6bb14515570333e
+modified: 1681506743527
+created: 1681506743527
+url: "{{local_url}}/auth/two-factor/send-code"
+name: Send Code
+description: >-
+  StartFragment
+
+
+  This endpoint send the verification code if the user use 2factor authentication to login
+
+
+  EndFragment
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743527
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

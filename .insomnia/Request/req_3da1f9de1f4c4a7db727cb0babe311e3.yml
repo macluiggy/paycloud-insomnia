@@ -1,0 +1,98 @@
+_id: req_3da1f9de1f4c4a7db727cb0babe311e3
+type: Request
+parentId: fld_b5947f695eb040208eb5eb72420f48b9
+modified: 1682990054409
+created: 1681506743191
+url: "{{local_url}}/bank/account/positive-pay"
+name: Create Positive Pay
+description: |-
+  This endpoint allows you to create a positive pay
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | Yes |
+  | ipAddress | IP | Yes |
+  | port | Integer | Yes |
+  | user | String | Yes |
+  | password | String | Yes |
+  | emailAddress | String | Yes |
+  | importFrequency | String(Days, Hours) | Yes |
+  | timeFrequency | Integer | Yes |
+  | path | String | Yes |
+  | paymentType | String(Checks, ACH/EFT) | Yes |
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: default
+      name: bankAccountId
+      disabled: false
+      value: 3c7ab016-5be7-4d0e-a64a-c4dd18e1d1b0
+      id: pair_5afaac197df64e6cac77ccef309482ea
+    - type: default
+      name: ipAddress
+      disabled: false
+      value: 18.118.51.102
+      id: pair_1d4cb498cc9745a88f50ab3cce200dc3
+    - type: default
+      name: port
+      disabled: false
+      value: "21"
+      id: pair_dfc16c429ede47ddbfa91597e61ebbb1
+    - type: default
+      name: user
+      disabled: false
+      value: developftp
+      id: pair_62336a723a0746559e564e30aabac5df
+    - type: default
+      name: password
+      disabled: false
+      value: imagineapps2021*
+      id: pair_0adf18bd7e76466195c9d865e2290193
+    - type: default
+      name: emailAddress
+      disabled: false
+      value: santiago.gomez@imagineapps.co
+      id: pair_43a5339ec8cc4002a2b96b07ea26a8f5
+    - type: default
+      name: importFrequency
+      disabled: false
+      value: Days
+      id: pair_460429922a414057a570eced92e29b3b
+    - type: default
+      name: timeFrequency
+      disabled: false
+      value: "2"
+      id: pair_5fed56c090e144669b99e8ed7d67b351
+    - type: default
+      name: path
+      disabled: false
+      value: files/
+      id: pair_64fb9ee4629c490ab17fdd4c80d73686
+    - type: text
+      name: paymentType
+      disabled: false
+      value: Checks
+      id: pair_ebb39c8b94c94725bb484ed2b5c5b5c2
+    - type: text
+      name: companyCode
+      disabled: false
+      value: IMGA
+      id: pair_3c3f9a9ea38848a599ec0abb8696dae5
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

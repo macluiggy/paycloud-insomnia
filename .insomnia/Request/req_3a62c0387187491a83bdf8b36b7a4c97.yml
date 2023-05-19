@@ -1,0 +1,48 @@
+_id: req_3a62c0387187491a83bdf8b36b7a4c97
+type: Request
+parentId: fld_5ee1ffcfd8334d50b4f51b8174340523
+modified: 1682988425588
+created: 1681506743151
+url: "{{local_url}}/reports/templates"
+name: Create Report Template
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"name\": \"Report Template Name\",\r
+
+    \    \"reportFormat\": \"CSV\",\r
+
+    \    \"columns\": [\r
+
+    \        \"Amount\",\r
+
+    \        \"Payee Name\",\r
+
+    \        \"Date Issued\",\r
+
+    \        \"Transaction ID\"\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c497985d7a447c9b49f9a1c193651f5
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

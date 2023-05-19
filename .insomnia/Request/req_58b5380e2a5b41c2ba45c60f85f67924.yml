@@ -1,0 +1,27 @@
+_id: req_58b5380e2a5b41c2ba45c60f85f67924
+type: Request
+parentId: fld_df2bd2c7046c48e495f43d265c1b47f8
+modified: 1681506743390
+created: 1681506743390
+url: "{{local_url}}/data/api/1"
+name: Update Api Source
+description: ""
+method: PATCH
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743390
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

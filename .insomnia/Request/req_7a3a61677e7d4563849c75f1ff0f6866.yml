@@ -1,0 +1,40 @@
+_id: req_7a3a61677e7d4563849c75f1ff0f6866
+type: Request
+parentId: fld_b410e0ce111340fa892ad122c616662b
+modified: 1684350845507
+created: 1684180819339
+url: "{{ _.local_url }}/subscriptions/ala-carte"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"subscriptionId": "8ba1c2b3-ca8a-4845-a49e-6bd92183afd6",
+    	"featureIncludeId": "af84920a-da96-4de6-8231-c59127e5ba29"
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_bb1f45b445434130b61464904f56b137
+    name: size
+    value: "100"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479482.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

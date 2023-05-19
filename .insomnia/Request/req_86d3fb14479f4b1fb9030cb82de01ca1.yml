@@ -1,0 +1,32 @@
+_id: req_86d3fb14479f4b1fb9030cb82de01ca1
+type: Request
+parentId: fld_8fb623dd91a14ed4a6bb14515570333e
+modified: 1681506845064
+created: 1681506743530
+url: "{{local_url}}/auth/finger-print/validate"
+name: Trusted Device Validation
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: fingerPrint
+      disabled: false
+      value: "1706598348"
+      id: pair_6e56de8c5948459fb3963f67d5e7aa95
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743530
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

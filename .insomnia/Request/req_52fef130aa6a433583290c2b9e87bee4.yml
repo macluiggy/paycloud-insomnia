@@ -1,0 +1,25 @@
+_id: req_52fef130aa6a433583290c2b9e87bee4
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1681860278638
+created: 1681506743217
+url: "{{local_url}}/bank/account"
+name: All Bank Accounts
+description: This endpoints returns a list of all bank accounts that are created.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

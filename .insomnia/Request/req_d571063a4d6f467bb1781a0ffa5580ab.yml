@@ -1,0 +1,31 @@
+_id: req_d571063a4d6f467bb1781a0ffa5580ab
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1681506743184
+created: 1681506743184
+url: "{{local_url}}/bank/account/ach-eft-destination/:achDestinationId/history?\
+  page=1&size=2"
+name: History ACH/EFT
+description: |-
+  StartFragment
+
+  This endpoint returns history of ach genererated by the company
+
+  EndFragment
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

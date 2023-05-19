@@ -1,0 +1,43 @@
+_id: req_735d72ec86ed4a948caf1d5426f6dbae
+type: Request
+parentId: fld_504c73ce36c14ea3a857cec875b0e9cb
+modified: 1681843284973
+created: 1681506743199
+url: "{{local_url}}/bank/85159318-5812-462e-aef8-2d34b18d3cdf"
+name: Update Bank
+description: |-
+  This endpoint allows you to update a bank using its id
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | No |
+  | country | String | No |
+  | state | String | No |
+  | zipCode | Integer | No |
+  | phone | Integer | No |
+  | countryCallingCode | Integer | No |
+  | street | String | No |
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: name
+      disabled: false
+      value: Bank Updated
+      id: pair_8f8972b9ca5f45e6beabe4313995f1a9
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743199
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

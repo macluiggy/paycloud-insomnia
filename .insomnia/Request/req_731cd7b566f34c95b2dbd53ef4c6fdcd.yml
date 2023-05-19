@@ -1,0 +1,112 @@
+_id: req_731cd7b566f34c95b2dbd53ef4c6fdcd
+type: Request
+parentId: fld_c132c82a1f9446edb5a823d40aea68f6
+modified: 1682701927504
+created: 1682622669780
+url: "{{local_url}}/data/api/integrations/quickbooks-online"
+name: /quickbooks-online
+description: >-
+  This endpoint allows you to create a data source.
+
+
+  ### Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | Yes |
+
+  | sourceType | String(API, FLAT_FILE, SQL) | Yes |
+
+  | dataGroupId | Integer | Yes |
+
+  | primarySource | Boolean | Yes |
+
+  | data_api_source | Object | Yes (If sourceType is API) |
+
+  | data_sql_source | Object | Yes (If sourceType is SQL) |
+
+  | data_file_source | Object | Yes (If sourceType is FLAT_FILE) |
+
+
+  ### Fields for data api source
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | apiType | String(QUICKBOOKS, NETSUITE) | Yes |
+
+  | token | Text | Yes |
+
+  | realmId | String | Yes |
+
+  | consumerKey | String | Yes |
+
+  | consumerSecretKey | String | Yes |
+
+  | tokenSecret | String | Yes (if apiType is NETSUITE) |
+
+  | refreshToken | String | Yes (if apiType is QUICKBOOKS) |
+
+
+  ### Fields for data file source
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | fileType | String(STANDARD, CUSTOM_FILE) | Yes |
+
+  | columnSeparator | String | Yes |
+
+  | locationFile | String(FTP_SERVER, FILE_ROUTE) | Yes |
+
+  | ftpAddressIp | String | Yes |
+
+  | ftpPort | Integer | Yes |
+
+  | ftpUser | String | Yes |
+
+  | ftpPassword | String | Yes |
+
+  | fileAddress | String | Yes |
+
+  | fileRoute | String | Yes |
+
+  | structure | String ( HEADER_DETAILS, HEADER) | Yes ( if fileType is CUSTOM_FILE) |
+
+  | firstRowToImport | Integer | Yes ( if fileType is CUSTOM_FILE) |
+
+  | columnHeaderIndicator | String | Yes ( if fileType is HEADER_DETAILS) |
+
+  | valueHeaderIndicator | String | Yes ( if fileType is HEADER_DETAILS) |
+
+  | relationshipHeaderDetails | String(COLUMN_RELATED, CONTINUOUS_ROW) | Yes ( if fileType is HEADER_DETAILS) |
+
+  | headerIdIndicator | String | Yes ( if fileType is COLUMN_RELATED) |
+
+  | detailIdIndicator | String | Yes ( if fileType is COLUMN_RELATED) |
+method: POST
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

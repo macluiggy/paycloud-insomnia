@@ -1,0 +1,18 @@
+_id: fld_5d3ef0cd1da74300bb6af6f91add7a06
+type: RequestGroup
+parentId: wrk_20611c08e4ce4d7ab11a7829464d287e
+modified: 1681506753293
+created: 1681506753293
+name: PayCloud API
+description: >-
+  The PayCloud API allows you to programmatically access data stored in Paycloud
+  with ease.
+
+
+  # Overview
+
+
+  You need a valid JWT TOKEN to send request to the API endpoints. You can get the key from the login request
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1681506753293

@@ -1,0 +1,45 @@
+_id: req_9f27bf56861e4e8dae0901a63985a264
+type: Request
+parentId: fld_c9dc539469494d8f89a59cc4a63d7eb9
+modified: 1681506743357
+created: 1681506743357
+url: "{{local_url}}/data/mapping/filters"
+name: Delete Column Filters
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \        \"idColumnFilter\": \"03d8476c-0dd5-4800-8403-f429fc12e3b8\"\r
+
+    \t\r
+
+    \t},\r
+
+    \    {\r
+
+    \        \"idColumnFilter\": \"12e8a07f-d912-40b0-bc56-4aedd9121821\"\r
+
+    \t}\r
+
+    ]\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

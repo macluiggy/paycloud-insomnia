@@ -1,0 +1,73 @@
+_id: req_31e2ef6eae2242e4a16695de38b8d4be
+type: Request
+parentId: fld_5ee1ffcfd8334d50b4f51b8174340523
+modified: 1681506743150
+created: 1681506743150
+url: "{{local_url}}/reports/templates/4fccafbc-bced-4361-ad93-ec27cbc946ce"
+name: Update Report Template
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"name\": \"Report Template Name\",\r
+
+    \    \"reportFormat\": \"CSV\",\r
+
+    \    \"columns\": [\r
+
+    \       \"Amount\",\r
+
+    \      \"Payee Name\",\r
+
+    \      \"Payee Address\",\r
+
+    \      \"Payee ID\",\r
+
+    \      \"Date Issued\",\r
+
+    \      \"Date Imported\",\r
+
+    \      \"Date Approved\",\r
+
+    \      \"Status\",\r
+
+    \      \"Date Signed\",\r
+
+    \      \"Output Date\",\r
+
+    \      \"Transaction ID\",\r
+
+    \      \"Check Number\",\r
+
+    \      \"Transaction Type\",\r
+
+    \      \"Originating Bank Account\",\r
+
+    \      \"Originating Bank\",\r
+
+    \      \"Transaction Description\",\r
+
+    \      \"Transaction Source\"\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

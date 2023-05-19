@@ -1,0 +1,54 @@
+_id: req_569b2d9165d74b62bf3e8f09b64e47d5
+type: Request
+parentId: fld_b410e0ce111340fa892ad122c616662b
+modified: 1684421959062
+created: 1684180165203
+url: "{{ _.local_url }}/subscriptions/ala-carte"
+name: /
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"restrictions": {
+    		"notificationCompanyPreferences": [
+    			{
+    				"name": "bankNotifications",
+    				"enabled": true,
+    				"cc": ["ferrinluiggy@gmail.com", "luiggy@yopmail.com"]
+    			},
+    			{
+    				"name": "groupNotifications",
+    				"enabled": true,
+    				"cc": []
+    			}
+    		]
+    	}
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+    disabled: true
+  - id: pair_bb1f45b445434130b61464904f56b137
+    name: size
+    value: "100"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479485.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

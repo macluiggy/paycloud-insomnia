@@ -1,0 +1,111 @@
+_id: req_c0447cc3d24d430990738df8fe08e90b
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1683131019822
+created: 1683130949703
+url: "{{local_url}}/data/groups/0f7292dd-ce30-4e2d-8601-ba5fce29f4b3"
+name: /:id
+description: |-
+  This endpoint allows you update a data group using its id.
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | No |
+  | frequencyLabel | String | No |
+  | frequencyValue | Integer | No |
+  | companyId | Integer | No |
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "First Group",
+        "group_users": [
+            {
+                "userId": "192bb0b6-8e3e-4077-ac69-830feb244927"
+            },
+            {
+                "userId": "a9af1798-8aa4-4d90-be99-cc5e77404744"
+            }
+        ],
+        "permissions": {
+            "payments": {
+                "createBatch": false,
+                "createTransaction": false,
+                "manualImport": false,
+                "sendToOutput": false,
+                "reprint": true,
+                "void": true
+            },
+            "dashboard": {
+                "view": true
+            },
+            "outputManager": {
+                "view": false,
+                "update": false,
+                "create": false,
+                "delete": false,
+                "configure": false
+            },
+            "reports": {
+                "configure": false,
+                "view": false
+            },
+            "payees": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false,
+                "import": false
+            },
+            "banks": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false
+            },
+            "bankAccounts": {
+                "create": true,
+                "view": false,
+                "update": false,
+                "delete": false
+            },
+            "users": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false
+            },
+            "printers": {
+                "view": false
+            },
+            "dataGroups": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false,
+                "column": false,
+                "automatic": false
+            }
+        },
+        "groupRole": "Custom"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743483
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_21320c51fa5a4637828080ee11278471
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1681506743485
+created: 1681506743485
+url: "{{local_url}}/data/groups/without_bank_account"
+name: All Data Groups Without Bank Account
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_f21dff5638584250bae47cf2c9222839
+type: Request
+parentId: fld_75f9bace7cef493a9e8a8d292adb4b43
+modified: 1682349664878
+created: 1681521631168
+url: "{{ _.local_url }}/notification/company/a50d9b80-c960-46d0-85e3-9637648004e2"
+name: /:id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"restrictions": {
+    		"notificationPreferences": [
+    			{
+    				"name": "bankNotifications",
+    				"enabled": true,
+    				"type": [
+    					"sms",
+    					"email"
+    				]
+    			},
+    			{
+    				"name": "bankNotifications",
+    				"enabled": true,
+    				"type": [
+    					"sms",
+    					"email"
+    				]
+    			}
+    		]
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681509945783.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

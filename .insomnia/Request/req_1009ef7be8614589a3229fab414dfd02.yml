@@ -1,0 +1,25 @@
+_id: req_1009ef7be8614589a3229fab414dfd02
+type: Request
+parentId: fld_e3c40d3858b14db89d6953401e23b1d8
+modified: 1681506743148
+created: 1681506743148
+url: "{{local_url}}/reports/1ebd0f86-4d4b-49c7-87ed-1372af4eaf27"
+name: Get Report
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

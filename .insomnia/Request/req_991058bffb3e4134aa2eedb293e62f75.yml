@@ -1,0 +1,43 @@
+_id: req_991058bffb3e4134aa2eedb293e62f75
+type: Request
+parentId: fld_7189b8a05f4a4e29b455d29b5d3d0ecc
+modified: 1681506743346
+created: 1681506743346
+url: "{{local_url}}/data/mapping"
+name: Delete Column Mapping
+description: This endpoint can be used to delete an existing column mapping using its id
+method: DELETE
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"idColumnMapping\": 12\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"idColumnMapping\": 14\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743346
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

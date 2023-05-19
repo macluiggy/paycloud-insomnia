@@ -1,0 +1,39 @@
+_id: req_a5e8b3686cdf4c56918656127d0ebfd4
+type: Request
+parentId: fld_9a3cb05cf20d40d7ab36537bb14d6164
+modified: 1681506743161
+created: 1681506743161
+url: "{{local_url}}/output/ftp-document/2fad2ad4-063a-45fe-9503-9c6dd75a5e59"
+name: Update Ftp Document Output
+description: ""
+method: PATCH
+body:
+  params:
+    - type: text
+      name: ipAddress
+      disabled: false
+      value: 18.118.51.102
+    - type: text
+      name: username
+      disabled: false
+      value: developftp
+    - type: text
+      name: password
+      disabled: false
+      value: imagineapps2021*
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743161
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

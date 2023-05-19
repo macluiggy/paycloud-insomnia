@@ -1,0 +1,35 @@
+_id: req_2064e6eead2f4886847e03b7297ad428
+type: Request
+parentId: fld_f6260d6ed41b422b82fbc2ecb261bedd
+modified: 1681929837635
+created: 1681506743221
+url: "{{local_url}}/batches"
+name: Delete Batches
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    [
+    	{
+    		"idBatch": "125fecd9-8e6e-46b6-b491-eb9e556594be"
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b94380cc9ee94bdfbb5fd6fc904615c1
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

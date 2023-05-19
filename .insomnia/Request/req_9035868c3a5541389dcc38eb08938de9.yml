@@ -1,0 +1,25 @@
+_id: req_9035868c3a5541389dcc38eb08938de9
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1681506743216
+created: 1681506743216
+url: "{{local_url}}/bank/account/38f1bfa7-daff-4399-b883-29244e3893f1"
+name: Single Bank Account
+description: This endpoint fetches the bank account data using its **id**
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

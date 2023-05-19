@@ -1,0 +1,59 @@
+_id: req_71fd188591ec4443bd61f132c3cfed6d
+type: Request
+parentId: fld_504c73ce36c14ea3a857cec875b0e9cb
+modified: 1683222548107
+created: 1681506743212
+url: "{{local_url}}/bank"
+name: Create Bank
+description: |-
+  This endpoint allows you to create a new bank
+
+  ## **Request**
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | Yes |
+  | country | String | Yes |
+  | state | String | Yes |
+  | zipCode | Integer | Yes |
+  | phone | Integer | No |
+  | countryCallingCode | Integer | Yes |
+  | street | String | Yes |
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Company Name",
+        "accountNumberLength": 12,
+        "fillerAccountNumber": " ",
+        "addressLine1": "aaa",
+        "addressLine2": "aaa",
+        "country": "Ecuador",
+        "city": "Guaranda",
+        "state": "Bolívar",
+        "countryCallingCode": "+1",
+        "zipCode": "11111",
+        "phone": "(123) 332-1232",
+        "countryCode": "ECU",
+        "cityCode": "Gu1510",
+        "stateCode": "B"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c02370d0a01c445fa8ec3c70c928f115
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ _.JWT_TOKEN }}"
+  prefix: ""
+metaSortKey: -1681506743212
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

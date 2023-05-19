@@ -1,0 +1,25 @@
+_id: req_64384082861f4b01b64320e3666b68e1
+type: Request
+parentId: fld_5ee1ffcfd8334d50b4f51b8174340523
+modified: 1681506743150
+created: 1681506743150
+url: "{{local_url}}/reports/templates/91ca3ea0-6818-4199-b6f1-de7cf8a97a6f"
+name: Delete Report Template
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,69 @@
+_id: req_10d885021ddc4783ad3f839052055275
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1683061423157
+created: 1681506743215
+url: "{{local_url}}/bank/account/27663008-5740-47d1-ac19-102ee08f055d"
+name: Update Bank Account
+description: |-
+  This endpoint allows you to update a bank account using its **id.**
+
+  The endpoint allows you to edit the following fields
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | accountNumber | Integer | No |
+  | accountName | String | No |
+  | routingNumber | Integer | No |
+  | bankId | Integer | No |
+  | email | String | No |
+  | currency | String | No |
+  | reprintsAllowed | Boolean | No |
+  | micrFormat | String | No |
+  | checkAllowed | Boolean | No |
+  | electronicPaymentAllowed | Boolean | No |
+  | achOrEftAllowed | Boolean | No |
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: checkApprovalEnabled
+      disabled: true
+      value: "true"
+      id: pair_4ecab265ab3e4529bb6bc8b1a55263ab
+    - type: text
+      name: accountName
+      disabled: false
+      value: Bank Updated
+      id: pair_d8370b2cb3b44141aa739967f98bf402
+    - type: text
+      name: checkSignatureEnabled
+      disabled: true
+      value: "true"
+      id: pair_3de957563a9e4e5f9aeca89b9190faf8
+    - type: text
+      name: checkPositivePayEnabled
+      disabled: true
+      value: "true"
+      id: pair_c060e45bbac64c3eb2cefce9c6a63a3c
+    - type: text
+      name: checkAllowed
+      disabled: false
+      value: "true"
+      id: pair_03aff16c0a9a4d199e388b4addbf10e1
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743215
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

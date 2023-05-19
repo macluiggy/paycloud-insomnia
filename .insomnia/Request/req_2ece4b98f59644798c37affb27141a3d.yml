@@ -1,0 +1,25 @@
+_id: req_2ece4b98f59644798c37affb27141a3d
+type: Request
+parentId: fld_73df2ed1f18f47b287fa658b11b53b43
+modified: 1681920006261
+created: 1681506743219
+url: "{{local_url}}/payees/a0260945-0a06-4b1b-aa94-b2a1bed4b7e2"
+name: Delete Payee
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,60 @@
+_id: req_370a68b598304e0cad20d32410f6725e
+type: Request
+parentId: fld_c00e2f9a90aa4444a024f5f59b333185
+modified: 1682709444530
+created: 1681506743334
+url: "{{local_url}}/data/details/filters"
+name: Create Detail Filters
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \t\t\"detailMappingId\": \"cd75baed-ee7b-480d-8a31-509f98317ffb\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": null,\r
+
+    \t\t\"then\": \"TAKE_VALUE_FROM\",\r
+
+    \        \"newInput\": \"4\"\r
+
+    \t},\r
+
+    \    {\r
+
+    \t\t\"detailMappingId\": \"f95cc4f9-dfc9-493c-ad7f-1b5744555f03\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": null,\r
+
+    \t\t\"then\": \"TAKE_VALUE_FROM\",\r
+
+    \        \"newInput\": \"4\"\r
+
+    \t}\r
+
+    ]\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d4e5c455f10d4d2980e196079200a902
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743334
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

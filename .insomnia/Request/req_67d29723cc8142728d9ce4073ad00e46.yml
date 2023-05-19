@@ -1,0 +1,58 @@
+_id: req_67d29723cc8142728d9ce4073ad00e46
+type: Request
+parentId: fld_ff9b3039c35445c2bdb0d7266f576572
+modified: 1681506743413
+created: 1681506743413
+url: "{{local_url}}/data/files/3"
+name: Update File Source
+description: |-
+  This endpoint updates an existing file source using its id
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | fileType | String( STANDARD, CUSTOM_FILE ) | No |
+  | dataSourceId | Integer | No |
+  | columnSeparator | String | No |
+  | ftpAddressIp | String | No |
+  | ftpPort | Integer | No |
+  | ftpUser | String | No |
+  | ftpPassword | String | No |
+  | localAddress | String | No |
+  | structure | String | No |
+  | firstRowToImport | String | No |
+  | columnHeaderIndicator | String | No |
+  | valueHeaderIndicator | String | No |
+  | relationshipHeaderDetails | String | No |
+method: PATCH
+body:
+  params:
+    - type: text
+      name: firstRowToImport
+      disabled: false
+      value: "6"
+    - type: text
+      name: columnHeaderIndicator
+      disabled: false
+      value: "0"
+    - type: text
+      name: valueHeaderIndicator
+      disabled: false
+      value: "1"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

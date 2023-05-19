@@ -1,0 +1,25 @@
+_id: req_e9dbca775baf4be38374158d57444bd8
+type: Request
+parentId: fld_946d06b1076c411588b026c0c009043d
+modified: 1681506743501
+created: 1681506743501
+url: "{{local_url}}/data/groups/b78c8122-1147-4038-bb73-72cc39c24b02/import/pause"
+name: Pause Automatic Import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzZWVjNGJmMC1mYzNlLTQ5OWQtYWU1MS1iODQyZjBmYjM2NTIiLCJjb21wYW55IjoiMTE5MGZjZWQtYjlkYy00ZmNiLThlYWQtMDM2NzE1NTQzZThmIiwiaWF0IjoxNjQ5NDY3OTA5LCJleHAiOjE2NDk1NTQzMDl9.BM9fRG7DMY_ZGeBKy-k5AzOTinyI2sCgI3CIafc_f2w
+  prefix: ""
+metaSortKey: -1681506743501
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

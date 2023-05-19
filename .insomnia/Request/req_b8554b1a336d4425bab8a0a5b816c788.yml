@@ -1,0 +1,133 @@
+_id: req_b8554b1a336d4425bab8a0a5b816c788
+type: Request
+parentId: fld_e3b82a4ededb4cefaf784b9f26013cce
+modified: 1683065988544
+created: 1681506743182
+url: "{{local_url}}/groups"
+name: Create Group
+description: >-
+  This endpoint allows you to create a group.
+
+
+  ## Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | Yes |
+
+  | group_users | Array | Yes |
+
+  | group_permissions | Array | Yes |
+
+
+  ## Fields for group_users
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | userId | String | Yes |
+
+
+  ###   
+
+  Fields for group_permissions
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | moduleName | String (Dashboard, Payments, Output Manager, Data Sources, Resources) | Yes |
+
+  | permissions | Object | Yes |
+
+
+  ### Fields for permissions
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | view | Boolean | Yes |
+
+  | create | Boolean | Yes |
+
+  | edit | Boolean | Yes |
+
+  | delete | Boolean | Yes |
+
+  | print | Boolean | Yes |
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+    	"name": "First Group",
+    	"group_users": [
+    		{
+    			"userId": "0c4264ac-b9a2-4fe7-b87e-5f54a17103ea"
+    		},
+    		{
+    			"userId": "f0d54ad7-aed0-46ea-ba9b-baf30a113789"
+    		}
+    	],
+    	"permissions": {
+            "payments": {
+                "create": true,
+                "print": false,
+                "reprint": true,
+                "void": true
+            },
+            "dashboard": {
+                "view": true
+            },
+            "outputManager": {
+                "configure": false
+            },
+            "reports": {
+                "configure": false
+            },
+            "payees": {
+                "configure": true
+            },
+            "banks": {
+                "configure": false
+            },
+            "bankAccounts": {
+                "configure": true
+            },
+            "users": {
+                "configure": false
+            },
+            "printers": {
+                "configure": true
+            },
+            "dataGroups": {
+                "configure": false
+            }
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_00644d9e2db84008a54cc911ac8197b0
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743182
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

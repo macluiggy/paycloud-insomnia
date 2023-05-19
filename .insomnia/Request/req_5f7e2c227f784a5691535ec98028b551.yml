@@ -1,0 +1,25 @@
+_id: req_5f7e2c227f784a5691535ec98028b551
+type: Request
+parentId: fld_ea4ccd0a07fc4cd8b4225b2f162ca2ca
+modified: 1681506743193
+created: 1681506743193
+url: "{{local_url}}/bank/account/signatures/9"
+name: Single Signature
+description: This endpoint fetches the signature data using its id
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

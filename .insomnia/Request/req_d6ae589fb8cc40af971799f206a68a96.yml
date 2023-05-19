@@ -1,0 +1,29 @@
+_id: req_d6ae589fb8cc40af971799f206a68a96
+type: Request
+parentId: fld_098e410c58dc40fa936f221bec7d0bdb
+modified: 1681933823719
+created: 1681506743175
+url: "{{local_url}}/design/studio/templates?type=Document"
+name: All Templates
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1b91aeece23341e688bad59859064b3f
+    name: type
+    value: Email
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743175
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

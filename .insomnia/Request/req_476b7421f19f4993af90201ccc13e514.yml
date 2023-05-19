@@ -1,0 +1,25 @@
+_id: req_476b7421f19f4993af90201ccc13e514
+type: Request
+parentId: fld_df2bd2c7046c48e495f43d265c1b47f8
+modified: 1681506743386
+created: 1681506743386
+url: "{{local_url}}/data/api/1"
+name: Delete Api Source
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743386
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

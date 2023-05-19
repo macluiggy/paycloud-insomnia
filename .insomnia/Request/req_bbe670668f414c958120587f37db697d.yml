@@ -1,0 +1,27 @@
+_id: req_bbe670668f414c958120587f37db697d
+type: Request
+parentId: fld_0aaada7e164c43baa7f4b79ab1558600
+modified: 1681506743516
+created: 1681506743516
+url: "{{local_url}}/auth/forgot-password"
+name: Forgot Password
+description: No implemented yet
+method: POST
+body:
+  params:
+    - type: default
+      name: email
+      disabled: false
+      value: santiago.gomez@imagineapps.co
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681506743516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

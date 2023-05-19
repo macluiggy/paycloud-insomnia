@@ -1,0 +1,47 @@
+_id: req_456d249ae44945e988512e0bdc15ce5e
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1682698829697
+created: 1681506743490
+url: "{{local_url}}/data/groups"
+name: Create Data Group
+description: |-
+  This endpoint allows you to create a data group
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | Yes |
+  | frequencyLabel | String | Yes |
+  | frequencyValue | Integer | Yes |
+  | companyId | Integer | Yes |
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name": "data group 8",
+        "frequencyLabel": "Days",
+        "frequencyValue": "111",
+        "frequencyTime": "17:24",
+        "timeZone": "America/Guayaquil"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_72c0235c1b5e4632a3f169278dd47b9e
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743490
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

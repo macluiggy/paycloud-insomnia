@@ -1,0 +1,48 @@
+_id: req_cedebcd8ed144e9a9afd22e2d54283cd
+type: Request
+parentId: fld_df69605992064d90bed5b1d2c6ac6cc0
+modified: 1681506743308
+created: 1681506743308
+url: "{{local_url}}/companies/1e8ef1af-21af-4a26-aed5-54bd9a2749d5"
+name: Update Company
+description: |-
+  This endpoint allows you to update a company using its **id.**
+
+  The endpoint allows you to edit fields
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | No |
+  | country | String | No |
+  | address | String | No |
+method: PATCH
+body:
+  params:
+    - type: text
+      name: name
+      disabled: true
+      value: Imagine Apps
+    - type: text
+      name: address
+      disabled: true
+      value: "Calle 93 # 50 Este 36"
+    - type: text
+      name: isActive
+      disabled: false
+      value: "false"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743308
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

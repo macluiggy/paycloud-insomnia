@@ -1,0 +1,50 @@
+_id: req_9217229009544b2a85f16c50c4f3d493
+type: Request
+parentId: fld_7189b8a05f4a4e29b455d29b5d3d0ecc
+modified: 1682707561921
+created: 1681506743354
+url: "{{local_url}}/data/mapping"
+name: Create Column Mapping
+description: |-
+  This endpoint allows you to create a column mapping of each data source.
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | columnIndex | Integer | If not exist columnName then it's required |
+  | columnName | String | If not exist columnIndex then it's required |
+  | payCloudColumn | String | Yes |
+  | dataSourceId | Integer | Yes |
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "dataGroupId": "542158b9-e250-40b9-b9da-f34f547a4f01",
+        "mapping": [
+            {
+                "dataSourceId": "6c04f755-9c78-495e-9a77-979ed47507d2",
+                "payCloudColumn": "amount",
+                "columnField": "0"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eabe8fbd993f49c187a13223b8a173d7
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743354
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

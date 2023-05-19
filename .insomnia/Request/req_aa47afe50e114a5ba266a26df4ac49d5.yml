@@ -1,0 +1,25 @@
+_id: req_aa47afe50e114a5ba266a26df4ac49d5
+type: Request
+parentId: fld_e3b82a4ededb4cefaf784b9f26013cce
+modified: 1681925009348
+created: 1681506743176
+url: "{{local_url}}/groups/f0e43558-7e03-4ada-8bd7-4c4ec4eafcf4"
+name: Delete Group
+description: This endpoint allows you to delete an existing group using its ID.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

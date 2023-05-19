@@ -1,0 +1,25 @@
+_id: req_4c8dbb41a0f44b7ebffc60f01a8eefca
+type: Request
+parentId: fld_df2bd2c7046c48e495f43d265c1b47f8
+modified: 1681506743393
+created: 1681506743393
+url: "{{local_url}}/data/api/1"
+name: Single Api Source
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

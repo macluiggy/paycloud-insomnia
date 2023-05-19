@@ -1,0 +1,25 @@
+_id: req_d9c293bf2e7e464d9044d19de3117787
+type: Request
+parentId: fld_e3b82a4ededb4cefaf784b9f26013cce
+modified: 1681506743179
+created: 1681506743179
+url: "{{local_url}}/groups/9ba0b186-13c9-48a7-90b7-5401d6df093b"
+name: Single Group
+description: This endpoint fetches a single group having specific id.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

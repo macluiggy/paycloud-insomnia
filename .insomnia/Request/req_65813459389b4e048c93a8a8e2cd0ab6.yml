@@ -1,0 +1,43 @@
+_id: req_65813459389b4e048c93a8a8e2cd0ab6
+type: Request
+parentId: fld_aede65bc15f544efbfe5c9a75daafa72
+modified: 1682361321146
+created: 1682361318670
+url: "{{ _.local_url }}/subscriptions/feature/244bedc8-3504-4f6c-a913-acc6d121a5a2"
+name: /:id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Borrar update"
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_6b205181358f4ba1b55673ccc850cffd
+    name: size
+    value: "1"
+    description: ""
+  - id: pair_5bdc082deb664bfb98e06bf2308646aa
+    name: page
+    value: "2"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b83dc924b6774d3bbfaf605af40e85ab
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479461.2656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_f6bb45c98ddf4d46ba640fb8140e298b
+type: Request
+parentId: fld_4adbffd050f04674b7db073561a0fef7
+modified: 1681506743292
+created: 1681506743292
+url: "{{local_url}}/users/two-factor/activate"
+name: Activate 2factor
+description: This endpoint active the 2factor if the code is valid
+method: POST
+body:
+  params:
+    - type: text
+      name: code
+      disabled: false
+      value: "554477"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743292
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

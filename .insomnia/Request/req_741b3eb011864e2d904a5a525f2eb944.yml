@@ -1,0 +1,52 @@
+_id: req_741b3eb011864e2d904a5a525f2eb944
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1681926282953
+created: 1681506743485
+url: "{{local_url}}/data/groups/0f7292dd-ce30-4e2d-8601-ba5fce29f4b3"
+name: Update Data Group
+description: |-
+  This endpoint allows you update a data group using its id.
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | No |
+  | frequencyLabel | String | No |
+  | frequencyValue | Integer | No |
+  | companyId | Integer | No |
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: name
+      disabled: false
+      value: Data group updated
+      id: pair_69c216d3fa2d47e8975c8507de34e9da
+    - type: text
+      name: frequencyLabel
+      disabled: false
+      value: Days
+      id: pair_efcde369bf65472589b71635de68fbba
+    - type: text
+      name: frequencyValue
+      disabled: false
+      value: "1"
+      id: pair_5c453c2f06bd4ead983d19e07e0d9a5e
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

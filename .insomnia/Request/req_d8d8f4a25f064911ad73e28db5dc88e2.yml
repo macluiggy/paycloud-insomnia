@@ -1,0 +1,25 @@
+_id: req_d8d8f4a25f064911ad73e28db5dc88e2
+type: Request
+parentId: fld_c132c82a1f9446edb5a823d40aea68f6
+modified: 1682636065303
+created: 1681506743468
+url: "{{local_url}}/data/sources"
+name: /
+description: This endpoint returns a list of all data sources that created in the platform.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

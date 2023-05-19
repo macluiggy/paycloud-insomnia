@@ -1,0 +1,28 @@
+_id: req_8c1644b76db84f6888b5ce24752de1a1
+type: Request
+parentId: fld_f6260d6ed41b422b82fbc2ecb261bedd
+modified: 1682121430692
+created: 1681506743222
+url: "{{local_url}}/batches/a5b8c7e1-86d2-4dbc-9df7-7ecb15973716?companyId=bb43\
+  0618-5011-4dd5-8e1e-0498a3a47ec4"
+name: Single Batch
+description: This endpoint fetches the batch data using its **id**
+method: GET
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_5e316449e9fc4347a9d17547951d7343
+type: Request
+parentId: fld_c802a33fe8c645cb992f4904e64fe0c6
+modified: 1681506743144
+created: 1681506743144
+url: "{{local_url}}/test-workflow"
+name: Get Test Workflow
+description: ""
+method: GET
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743144
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

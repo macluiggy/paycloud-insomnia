@@ -1,0 +1,59 @@
+_id: req_6133b7e20b4448fd83932ba1b51066a6
+type: Request
+parentId: fld_adae1b3f5b8b4613b9b2657af7cae670
+modified: 1681506743446
+created: 1681506743446
+url: "{{local_url}}/data/sql"
+name: Create Sql Sources
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: dataSourceId
+      disabled: false
+      value: ea8f6a88-6b47-4204-85d7-be4687654788
+    - type: text
+      name: dialect
+      disabled: false
+      value: postgres
+    - type: text
+      name: ip
+      disabled: false
+      value: 127.0.0.1
+    - type: text
+      name: port
+      disabled: false
+      value: "5432"
+    - type: text
+      name: user
+      disabled: false
+      value: test
+    - type: text
+      name: password
+      disabled: false
+      value: admin123
+    - type: text
+      name: database
+      disabled: false
+      value: external_db
+    - type: text
+      name: storedProcedure
+      disabled: false
+      value: SELECT * FROM all_data_with_params('129 FTIgroup');
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743446
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

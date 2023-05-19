@@ -1,0 +1,25 @@
+_id: req_2f66197598ee42728502247b1286635d
+type: Request
+parentId: fld_73df2ed1f18f47b287fa658b11b53b43
+modified: 1681920005153
+created: 1681506743220
+url: "{{local_url}}/payees?sortByCreatedAt=DESC&sortByEmail=ASC&page=1"
+name: All Payees
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

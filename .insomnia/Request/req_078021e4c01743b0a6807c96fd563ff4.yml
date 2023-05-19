@@ -1,0 +1,25 @@
+_id: req_078021e4c01743b0a6807c96fd563ff4
+type: Request
+parentId: fld_35e8cba79b5b494893378f9c2671698f
+modified: 1682997021684
+created: 1681506743157
+url: "{{local_url}}/output/560979e6-6df0-413c-8edf-cfbba16b1c86"
+name: Single Output
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

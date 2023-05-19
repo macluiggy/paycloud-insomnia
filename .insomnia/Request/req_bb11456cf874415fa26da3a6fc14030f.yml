@@ -1,0 +1,57 @@
+_id: req_bb11456cf874415fa26da3a6fc14030f
+type: Request
+parentId: fld_5d9db9603ce24175a66f418584c57b13
+modified: 1683815816990
+created: 1683815788356
+url: "{{local_url}}/batches/manual-import"
+name: Manual Import ach
+description: >-
+  This endpoint allows you to extract a data from the file with the rules of the
+  data source id.
+
+
+  Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | dataSourceId | Integer | Yes |
+
+  | file | File | Yes |
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: batchId
+      disabled: false
+      value: 6076fccc-56ec-4ee9-af9b-a8fce639a254
+      id: pair_e8eb2769214b4f45a12a10ab9711f194
+    - type: text
+      name: bankAccountId
+      disabled: false
+      value: 336dec71-178b-4b42-8c39-5772892263ec
+      id: pair_c39b8858e5c44a78ba63242eb71075f2
+    - id: pair_f235041e91874b1d899f508463b5a001
+      name: flatFileToUpload
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/luiggy/Documents/PROGRAMMING/IMAGINEAPPS/standard_file_v2.txt
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743222.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

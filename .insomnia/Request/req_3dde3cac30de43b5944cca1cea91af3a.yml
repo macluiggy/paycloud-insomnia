@@ -1,0 +1,25 @@
+_id: req_3dde3cac30de43b5944cca1cea91af3a
+type: Request
+parentId: fld_504c73ce36c14ea3a857cec875b0e9cb
+modified: 1681506743200
+created: 1681506743200
+url: "{{local_url}}/bank/faa25be0-71bf-455e-85cb-0490ff44624f"
+name: Single Bank
+description: This endpoint fetches the bank data using its **id**
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

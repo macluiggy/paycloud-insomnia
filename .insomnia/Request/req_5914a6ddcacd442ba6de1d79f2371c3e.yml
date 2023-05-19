@@ -1,0 +1,79 @@
+_id: req_5914a6ddcacd442ba6de1d79f2371c3e
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1681506743186
+created: 1681506743186
+url: "{{local_url}}/bank/account/ach-eft-destination"
+name: Create ACH/EFT Destination
+description: |-
+  This endpoint allows you to create a positive pay
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | Yes |
+  | ipAddress | IP | Yes |
+  | port | Integer | Yes |
+  | user | String | Yes |
+  | password | String | Yes |
+  | emailAddress | String | Yes |
+  | importFrequency | String(Days, Hours) | Yes |
+  | timeFrequency | Integer | Yes |
+  | path | String | Yes |
+  | paymentType | String(Checks, ACH/EFT) | Yes |
+method: POST
+body:
+  params:
+    - type: default
+      name: bankAccountId
+      disabled: false
+      value: 3c7ab016-5be7-4d0e-a64a-c4dd18e1d1b0
+    - type: default
+      name: ipAddress
+      disabled: false
+      value: 18.118.51.102
+    - type: default
+      name: port
+      disabled: false
+      value: "21"
+    - type: default
+      name: user
+      disabled: false
+      value: developftp
+    - type: default
+      name: password
+      disabled: false
+      value: imagineapps2021*
+    - type: default
+      name: emailAddress
+      disabled: false
+      value: santiago.gomez@imagineapps.co
+    - type: default
+      name: importFrequency
+      disabled: false
+      value: Days
+    - type: default
+      name: timeFrequency
+      disabled: false
+      value: "2"
+    - type: default
+      name: path
+      disabled: false
+      value: files/
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

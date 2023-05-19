@@ -1,0 +1,25 @@
+_id: req_6cfb2fc3dba04a67a40e466e8b8fe200
+type: Request
+parentId: fld_b5947f695eb040208eb5eb72420f48b9
+modified: 1681506743189
+created: 1681506743189
+url: "{{local_url}}/bank/account/positive-pay/1"
+name: Delete Positive Pay
+description: This endpoint allows you to delete an existing positive pay using its **id**
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743189
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

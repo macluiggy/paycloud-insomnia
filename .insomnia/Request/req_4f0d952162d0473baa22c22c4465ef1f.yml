@@ -1,0 +1,25 @@
+_id: req_4f0d952162d0473baa22c22c4465ef1f
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1681915675546
+created: 1681506743214
+url: "{{local_url}}/bank/account/27663008-5740-47d1-ac19-102ee08f055d"
+name: Delete Bank Account
+description: This endpoint allows you to delete an existing bank account using its **id**
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

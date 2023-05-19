@@ -1,0 +1,55 @@
+_id: req_90ef282351ff464699004fc8b4e1e163
+type: Request
+parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
+modified: 1681506743226
+created: 1681506743226
+url: "{{local_url}}/transactions/reject"
+name: Reject Transactions
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"bankAccountId\": \"f7e8b920-c7a6-4f01-8995-e110a4e310b5\",\r
+
+    \    \"transactions\": [\r
+
+    \    {\r
+
+    \        \"transactionId\": \"b39fc9c2-0f11-4e06-b8fc-f69c19379187\"\r
+
+    \    },\r
+
+    \t{\r
+
+    \t\t\"transactionId\": \"b989cd34-933c-44d0-82e4-5cca9822c013\"\r
+
+    \t},\r
+
+    \t{\r
+
+    \t\t\"transactionId\": \"eb3fc758-2def-4d67-bd17-1cc15eadc30b\"\r
+
+    \t}\r
+
+    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_fe11ea7215ba48d2ae8ef74b49205f6a
+type: Request
+parentId: fld_f6260d6ed41b422b82fbc2ecb261bedd
+modified: 1682342362032
+created: 1681506743222
+url: "{{local_url}}/batches"
+name: All Batches
+description: This endpoint fetches all the batches that created
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: CompanyId
+    value: bb430618-5011-4dd5-8e1e-0498a3a47ec4
+    id: pair_b9a84ba3dc9f4bf9b39f65a28f8c28c8
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_ea7a9a21128446c9b982c2acc603a12c
+type: Request
+parentId: fld_3e8710716a974796bd5a585e6bf9ddce
+modified: 1681506743153
+created: 1681506743153
+url: "{{local_url}}/dashboard/transactions?initialDate=08/02/2022&finalDate=08/\
+  03/2022"
+name: Get Transactions History
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

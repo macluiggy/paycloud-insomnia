@@ -1,0 +1,25 @@
+_id: req_510be493de78448ab6d0bf22f939c866
+type: Request
+parentId: fld_e3b82a4ededb4cefaf784b9f26013cce
+modified: 1681921369095
+created: 1681506743181
+url: "{{local_url}}/groups"
+name: All Groups
+description: This endpoint returns a list of all groups that created by the company.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

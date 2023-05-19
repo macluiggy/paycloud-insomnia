@@ -1,0 +1,32 @@
+_id: req_24c85f4b2e304e81a05f067382fa3ad5
+type: Request
+parentId: fld_f6260d6ed41b422b82fbc2ecb261bedd
+modified: 1682120682059
+created: 1681506743223
+url: "{{local_url}}/batches"
+name: Create Batch
+description: |-
+  This endpoint allows you to create a new batch.
+
+  ## **Request**
+
+  *This endpoint not need any field to create a new batch*
+method: POST
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

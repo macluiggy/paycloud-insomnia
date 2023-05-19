@@ -1,0 +1,65 @@
+_id: req_0eaa43b267834a07991f06a1ee73b7e8
+type: Request
+parentId: fld_04d825877a2547b4b16da501617e93be
+modified: 1681506743331
+created: 1681506743331
+url: "{{local_url}}/data/details"
+name: Update Detail Mapping
+description: |-
+  This endpoint allows you to update a detail mapping using its id.
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | columnIndex | Integer | No |
+  | columnName | String | No |
+  | payCloudColumn | String | No |
+  | dataSourceId | Integer | No |
+method: PATCH
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"dataSourceId\": 9,\r
+
+    \        \"idColumnMapping\": 12,\r
+
+    \        \"columnName\": \"date\",\r
+
+    \        \"payCloudColumn\": \"date\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"dataSourceId\": 9,\r
+
+    \        \"idColumnMapping\": 14,\r
+
+    \        \"columnName\": \"account_type\",\r
+
+    \        \"payCloudColumn\": \"description\"\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743331
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

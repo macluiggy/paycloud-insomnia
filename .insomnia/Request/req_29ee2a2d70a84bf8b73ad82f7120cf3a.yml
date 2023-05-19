@@ -1,0 +1,37 @@
+_id: req_29ee2a2d70a84bf8b73ad82f7120cf3a
+type: Request
+parentId: fld_072844a01644457097c9253d70c237d5
+modified: 1684376742071
+created: 1682350221115
+url: "{{ _.local_url }}/subscriptions/3798592d-702f-4cc7-994f-307e1da62a5d"
+name: /:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"planId": "360bb4e7-ace8-4d26-a0b7-d39d527d1a98",
+    	"billingInterval": "Monthly",
+    	"status": "Cancelled"
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479592.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

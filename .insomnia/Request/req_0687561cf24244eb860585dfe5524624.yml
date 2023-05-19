@@ -1,0 +1,25 @@
+_id: req_0687561cf24244eb860585dfe5524624
+type: Request
+parentId: fld_c132c82a1f9446edb5a823d40aea68f6
+modified: 1682622624850
+created: 1681506743457
+url: "{{local_url}}/data/sources/7"
+name: Delete Data Source
+description: This endpoint allows you to delete a single data source using its id
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743457
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

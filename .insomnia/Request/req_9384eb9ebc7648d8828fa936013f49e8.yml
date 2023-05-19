@@ -1,0 +1,32 @@
+_id: req_9384eb9ebc7648d8828fa936013f49e8
+type: Request
+parentId: fld_e981e5af316a4cc18fa3c70f18386ee3
+modified: 1683902090105
+created: 1683902074826
+url: "{{ _.local_url }}/billing/upsert"
+name: /upsert
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"subscriptionId":"c68f41d6-f2b1-4e8b-816f-d2fdf3266756",
+    	"total": 0,
+    	"status": "Pending"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1682964287747.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

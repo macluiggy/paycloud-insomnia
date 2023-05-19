@@ -1,0 +1,32 @@
+_id: req_b96881e429b847a1814d451d1aa98fd8
+type: Request
+parentId: fld_ead5a1a9ec3d49f7a4e2992b51086419
+modified: 1683903823753
+created: 1683837160666
+url: "{{ _.local_url }}/billing/details"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"billingId": "cf1b128c-dbdc-4dcb-8455-51955445bc1a",
+    	"amount": 0.49,
+    	"description": "ach transaction"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1682092323019.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

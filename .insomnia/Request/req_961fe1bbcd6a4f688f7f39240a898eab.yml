@@ -1,0 +1,45 @@
+_id: req_961fe1bbcd6a4f688f7f39240a898eab
+type: Request
+parentId: fld_c00e2f9a90aa4444a024f5f59b333185
+modified: 1681506743333
+created: 1681506743333
+url: "{{local_url}}/data/details/filters"
+name: Delete Detail Filters
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \        \"idDetailFilter\": \"c4f298fe-1d5c-49ef-b473-28d1345ebd45\"\r
+
+    \t\r
+
+    \t},\r
+
+    \    {\r
+
+    \        \"idDetailFilter\": \"d7c4acdf-8fd0-4401-8170-11043e031cfc\"\r
+
+    \t}\r
+
+    ]\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743333
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

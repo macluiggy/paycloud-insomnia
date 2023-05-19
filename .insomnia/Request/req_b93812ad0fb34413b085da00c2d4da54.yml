@@ -1,0 +1,43 @@
+_id: req_b93812ad0fb34413b085da00c2d4da54
+type: Request
+parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
+modified: 1681506743234
+created: 1681506743234
+url: "{{local_url}}/transactions/output"
+name: Output Transactions
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"transactionId\": \"42d9af3b-4767-4af0-bed3-f7de937dbc41\"\r
+
+    \    },\r
+
+    \t{\r
+
+    \t\t\"transactionId\": \"91671278-8114-48fb-bfbf-9d14a33073c4\"\r
+
+    \t}\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743234
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

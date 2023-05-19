@@ -1,0 +1,25 @@
+_id: req_84c42369554742f89bc4c0aea1aceac1
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1682623954111
+created: 1681506743486
+url: "{{local_url}}/data/groups/9ae315f3-4956-4de5-9b08-7f407cdf9c65?getStatus=true"
+name: Single Data Group
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

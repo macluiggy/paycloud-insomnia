@@ -1,0 +1,101 @@
+_id: req_9830e9ebcb0a4dfd9ee6a25dc35501b0
+type: Request
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1684447893518
+created: 1681506743226
+url: "{{local_url}}/transactions"
+name: Create Transaction
+description: >-
+  This endpoint allows you to create transactions with the transactions details
+  of it and the payee transaction is optional.
+
+
+  ## **Request**
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | type | String(Electronic Payment, Checks) | Yes |
+
+  | batchId | Integer | Yes |
+
+  | bankAccountId | Integer | Yes |
+
+  | amount | Decimal(20,2) | Yes |
+
+  | payeeId | Integer | No  <br>if the payee exist it's required. |
+
+  | date | Date | Yes |
+
+  | binNumber | String | No |
+
+  | swiftNumber | String | No |
+
+  | transaction_payee | Object | No |
+
+  | transaction_detail | Array | No |
+
+
+  #### A transactions always has a tansaction_detail with the following fields.
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | amount | Decimal(20,2) | Yes |
+
+  | description | String | Yes |
+
+  | date | Date | Yes |
+
+
+  **If you need create a new payee, you have to include the following fields in the object transactions_payee**
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | Yes |
+
+  | phone | Integer | No |
+
+  | email | String | Yes |
+
+  | addressLine1 | String | Yes |
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "batchId": "715e1800-50ce-4b1c-a396-7f24ab484f08",
+        "bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
+        "type": "E-Check",
+        "amount": 1,
+        "date": "2023-05-20T05:00:00.000Z",
+        "description": "This is a test",
+        "currencySymbol": "$",
+        "transaction_detail": [],
+        "payeeId": "37b0b68f-c87e-48d2-a8af-1340609ab9a4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_20fdb87081044894832034bb2b5f1b7f
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

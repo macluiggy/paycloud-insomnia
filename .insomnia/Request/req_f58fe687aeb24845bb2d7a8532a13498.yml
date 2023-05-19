@@ -1,0 +1,25 @@
+_id: req_f58fe687aeb24845bb2d7a8532a13498
+type: Request
+parentId: fld_ec61e6b3823e456881c90a0f00d542b2
+modified: 1681956174643
+created: 1681506743171
+url: "{{local_url}}/design/studio/emails/e72a88e9-2e89-4f92-8cc7-621cf9c77fd6"
+name: Single Email Template
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743171
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

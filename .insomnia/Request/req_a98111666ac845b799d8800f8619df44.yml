@@ -1,0 +1,25 @@
+_id: req_a98111666ac845b799d8800f8619df44
+type: Request
+parentId: fld_b5947f695eb040208eb5eb72420f48b9
+modified: 1681506743188
+created: 1681506743188
+url: "{{local_url}}/bank/account/positive-pay/formats"
+name: All Positive Pay Formats
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

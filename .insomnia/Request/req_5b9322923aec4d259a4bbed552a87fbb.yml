@@ -1,0 +1,50 @@
+_id: req_5b9322923aec4d259a4bbed552a87fbb
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1683581063660
+created: 1683581048883
+url: "{{local_url}}/bank/account/a95c4edd-32f0-4234-92bf-befe12bab3cb"
+name: /:id
+description: |-
+  This endpoint allows you to update a bank account using its **id.**
+
+  The endpoint allows you to edit the following fields
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | accountNumber | Integer | No |
+  | accountName | String | No |
+  | routingNumber | Integer | No |
+  | bankId | Integer | No |
+  | email | String | No |
+  | currency | String | No |
+  | reprintsAllowed | Boolean | No |
+  | micrFormat | String | No |
+  | checkAllowed | Boolean | No |
+  | electronicPaymentAllowed | Boolean | No |
+  | achOrEftAllowed | Boolean | No |
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "numberingStartingNumber": "00002324"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eec22a81ed4e46288439f03c948872be
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743214.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

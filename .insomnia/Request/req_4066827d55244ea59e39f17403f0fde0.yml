@@ -1,0 +1,25 @@
+_id: req_4066827d55244ea59e39f17403f0fde0
+type: Request
+parentId: fld_504c73ce36c14ea3a857cec875b0e9cb
+modified: 1681843696523
+created: 1681506743199
+url: "{{local_url}}/bank/85159318-5812-462e-aef8-2d34b18d3cdf"
+name: Delete Bank
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743199
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

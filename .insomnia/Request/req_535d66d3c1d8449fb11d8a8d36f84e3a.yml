@@ -1,0 +1,25 @@
+_id: req_535d66d3c1d8449fb11d8a8d36f84e3a
+type: Request
+parentId: fld_5f07d933aa924df8b89fc73791ad13ef
+modified: 1682691748633
+created: 1681506743486
+url: "{{local_url}}/data/groups?withOutBankAccount=false"
+name: All Data Groups
+description: This endpoints returns a list of all data groups that are created.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

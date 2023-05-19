@@ -1,0 +1,30 @@
+_id: req_4694e2da54b045ffa026bebcb5c5ae34
+type: Request
+parentId: fld_b5947f695eb040208eb5eb72420f48b9
+modified: 1681506743188
+created: 1681506743188
+url: "{{local_url}}/bank/account/positive-pay/:positivePayId/history?page=1&size=2"
+name: History Positive Pays
+description: |-
+  StartFragment
+
+  This endpoint returns history of positive pays genererated by the company
+
+  EndFragment
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,59 @@
+_id: req_97d74c0d8dc54422837bf14c34d675de
+type: Request
+parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
+modified: 1681506743285
+created: 1681506743285
+url: "{{local_url}}/auth/change-password"
+name: Change Password
+description: >-
+  The service allows change the password only with the JWT and the old password,
+  if the JWT or old password is wrong the service don't update the password
+
+
+  ### Request:
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | token | String | Yes |
+
+  | oldPassword | String | Yes |
+
+  | newPassword | String | Yes |
+method: POST
+body:
+  params:
+    - type: text
+      name: token
+      disabled: false
+      value: "{{JWT_TOKEN}}"
+    - type: text
+      name: oldPassword
+      disabled: false
+      value: sNdvs4FMMA
+    - type: text
+      name: newPassword
+      disabled: false
+      value: imagineapps2021
+    - type: text
+      name: confirmPassword
+      disabled: false
+      value: imagineapps2021
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743285
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

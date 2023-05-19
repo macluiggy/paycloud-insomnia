@@ -1,0 +1,79 @@
+_id: req_797c13280d9540748577f3941a9dd6be
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1683580728092
+created: 1683314548633
+url: "{{local_url}}/bank/account/ach-eft-destination"
+name: /
+description: |-
+  This endpoint allows you to create a positive pay
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | Yes |
+  | ipAddress | IP | Yes |
+  | port | Integer | Yes |
+  | user | String | Yes |
+  | password | String | Yes |
+  | emailAddress | String | Yes |
+  | importFrequency | String(Days, Hours) | Yes |
+  | timeFrequency | Integer | Yes |
+  | path | String | Yes |
+  | paymentType | String(Checks, ACH/EFT) | Yes |
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "bankAccountId": "800cc7e0-203e-484f-a577-bce133e542a5",
+        "automaticExport": true,
+        "connectionType": "FTP",
+        "ipAddress": "18.118.51.102",
+        "port": 21,
+        "user": "developftp",
+        "password": "imagineapps2021*",
+        "emailAddress": "",
+        "frequencyLabel": "Days",
+        "frequencyValue": "1",
+        "frequencyTime": "16:17",
+        "timeZone": "America/Bogota",
+        "path": "files/ach",
+        "cnbInternal": "0436",
+        "fileHeader": {
+            "immediateDestination": "066004367",
+            "immediateOrigin": "066004367",
+            "immediateDestinationName": "City National Bank",
+            "immediateOriginName": "Printech Global"
+        },
+        "batchHeader": {
+            "serviceClassCode": "200",
+            "companyName": "Printech Global",
+            "companyIdentification": "227357249",
+            "standardEntryClass": "PPD",
+            "companyEntryDescription": "Payment",
+            "originationDFI": "066004367"
+        },
+        "entryDetailRecord": {
+            "transactionCode": "22",
+            "addendaRecordIndicator": "0"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743185.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

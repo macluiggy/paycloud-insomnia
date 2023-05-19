@@ -1,0 +1,40 @@
+_id: req_336aac1544a745d5b3c73e759cc24965
+type: Request
+parentId: fld_35e8cba79b5b494893378f9c2671698f
+modified: 1683051779699
+created: 1682997016685
+url: "{{local_url}}/output/5b93d640-081b-46ec-b315-a61c5287c26f"
+name: /:id (automatic)
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name": "aaa",
+        "outputExecutionType": "schedule",
+        "frequencyLabel": "Hours",
+        "frequencyValue": "11",
+        "isEmail": true,
+        "isDocument": false,
+        "isAch": false,
+        "emailCheckTemplateId": "8dc20325-cfe4-4ecb-990b-161f3dba30b6"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c46b8c82c9a482db3be6cbd743e5fae
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: 550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

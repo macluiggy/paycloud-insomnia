@@ -1,0 +1,28 @@
+_id: req_c0ef24b67a604b60b1b7cc57f7061444
+type: Request
+parentId: fld_4adbffd050f04674b7db073561a0fef7
+modified: 1681506743296
+created: 1681506743296
+url: "{{local_url}}/users/two-factor/toggle"
+name: 2Factor Toggle
+description: This endpoint activate the 2factor if the user has a phone number
+  and country calling code
+method: POST
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_d5b484bbc78e43b5a6049e2b631d1bfb
+type: Request
+parentId: fld_3e8710716a974796bd5a585e6bf9ddce
+modified: 1681506743154
+created: 1681506743154
+url: "{{local_url}}/dashboard?bankAccountId=4c807a21-4d9d-4ec1-b838-810ee57b553b"
+name: Get Accounts Payable
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

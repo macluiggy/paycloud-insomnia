@@ -1,0 +1,27 @@
+_id: req_ec153edb36e34029b7d40b0c514f9d29
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1681506743183
+created: 1681506743183
+url: "{{local_url}}/bank/account/ach-eft-destination/:achDestinationId/history/\
+  :achLogId/preview"
+name: Preview ACH/EFT
+description: Return the preview of generated positive pay of the specific
+  positive pay log Id
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

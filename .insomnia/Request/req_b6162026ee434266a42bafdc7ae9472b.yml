@@ -1,0 +1,25 @@
+_id: req_b6162026ee434266a42bafdc7ae9472b
+type: Request
+parentId: fld_b48b17e04e044175bd250d2e9b73b270
+modified: 1681506743167
+created: 1681506743167
+url: "{{local_url}}/design/studio/documents/9d6dac4e-e958-4d81-a78f-26c40f40dbe9"
+name: Single Document Template
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,85 @@
+_id: req_d819126fd97b4edbafb0f306b79db1de
+type: Request
+parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
+modified: 1684424484801
+created: 1681506743288
+url: "{{local_url}}/users"
+name: Create User
+description: >-
+  The service allows create a new user and return the information of the new
+  user.
+
+
+  ### Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | email | String | Yes |
+
+  | password | String | Yes |
+
+  | fullName | String | Yes |
+
+  | address | String | No |
+
+  | singature | File | Yes |
+
+  | groupId | Integer | No |
+
+  | phone | Integer | No |
+
+  | signatureLimit | Integer | No |
+
+  | approvalLimit | Integer | No |
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: test35@imagineapps.co
+      id: pair_668a6a216d7f49afa1dda8922d83a872
+    - type: text
+      name: password
+      disabled: false
+      value: "12345678"
+      id: pair_b168d7f9ed25447399fd33cd0a62f4af
+    - type: text
+      name: role
+      disabled: false
+      value: admin
+      id: pair_a9e343c56ef24859960d4ff87b79caf1
+    - type: text
+      name: fullName
+      disabled: false
+      value: test 05
+      id: pair_f8a95394886b49a59409b6372ed7ad4b
+    - type: text
+      name: companyId
+      disabled: false
+      value: 0b0d3847-43c0-4f4e-a864-589d0b608500
+      id: pair_5622ac8ae6eb45429ce30554d739a5ec
+    - id: pair_016cea4556db4356a612163bf5d1fdc8
+      name: chargeAdditionalUser
+      value: "true"
+      description: ""
+      disabled: false
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

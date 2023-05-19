@@ -1,0 +1,49 @@
+_id: req_ca9ab0b8225a41409512a6f35b906e5e
+type: Request
+parentId: fld_c0b08f1a58a546e6972029ee482f6522
+modified: 1682362029250
+created: 1682362025554
+url: "{{ _.local_url
+  }}/subscriptions/feature-include/7e8c892e-c132-46c6-b9ac-d26a8867396d"
+name: /:id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"featureId": "3d396e91-5d8b-4140-b8e0-58a94c2bc865",
+    	"subscriptionId": "4d966e3e-b428-45b0-b6b2-c936b9d1c13d",
+    	"restrictions": {
+    		"limit": 3,
+    		"enabled": true
+    	}
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_6b205181358f4ba1b55673ccc850cffd
+    name: size
+    value: "1"
+    description: ""
+  - id: pair_5bdc082deb664bfb98e06bf2308646aa
+    name: page
+    value: "2"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a89a3a8a42184ad3b88b0b53b5244876
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479463.2432
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

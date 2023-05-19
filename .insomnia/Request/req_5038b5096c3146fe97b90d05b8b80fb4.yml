@@ -1,0 +1,26 @@
+_id: req_5038b5096c3146fe97b90d05b8b80fb4
+type: Request
+parentId: fld_c9dc539469494d8f89a59cc4a63d7eb9
+modified: 1682623940847
+created: 1681506743369
+url: "{{local_url}}/data/mapping/filters/data_group/fd72aa2a-ada6-49c4-813b-38e\
+  ec3cf8eb3"
+name: Get Column Filters
+description: This endpoint can be used to get column filters by data group id
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

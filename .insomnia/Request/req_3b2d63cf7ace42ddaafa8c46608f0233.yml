@@ -1,0 +1,75 @@
+_id: req_3b2d63cf7ace42ddaafa8c46608f0233
+type: Request
+parentId: fld_c9dc539469494d8f89a59cc4a63d7eb9
+modified: 1681506743365
+created: 1681506743365
+url: "{{local_url}}/data/mapping/filters"
+name: Create Column Filters
+description: |-
+  This endpoint can be used to create new column filters
+
+  ### REQUEST BODY
+
+  | **Field** | **Type** |
+  | --- | --- |
+  | columnMappingId | UUID |
+  | operator | String(50) |
+  | value | String(50) |
+  | then | String(50) |
+  | newInput | String(50) |
+  | newValue | String(50) |
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \t\t\"columnMappingId\": \"f602c421-85ce-4d9d-8d96-99f2c6cfc031\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": \"1010058214\",\r
+
+    \t\t\"then\": \"REPLACE_COLUMN\",\r
+
+    \        \"newInput\": \"4\",\r
+
+    \        \"newValue\": \"REAL ESTATE TRUST ACCOUNT IOTA\"\r
+
+    \t},\r
+
+    \    {\r
+
+    \t\t\"columnMappingId\": \"f602c421-85ce-4d9d-8d96-99f2c6cfc031\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": \"1016023602\",\r
+
+    \t\t\"then\": \"REPLACE_COLUMN\",\r
+
+    \        \"newInput\": \"4\",\r
+
+    \        \"newValue\": \"OPERATING ACCOUNT\"\r
+
+    \t}\r
+
+    ]\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

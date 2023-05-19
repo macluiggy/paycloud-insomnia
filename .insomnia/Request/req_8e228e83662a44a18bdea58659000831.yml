@@ -1,0 +1,26 @@
+_id: req_8e228e83662a44a18bdea58659000831
+type: Request
+parentId: fld_b5947f695eb040208eb5eb72420f48b9
+modified: 1681506743190
+created: 1681506743190
+url: "{{local_url}}/bank/account/positive-pay/4793d6f8-d4ed-4676-bb3e-6ead5fda6\
+  65d/download?initialDate=10/01/2022&finalDate=10/31/2022"
+name: Download Positive Pay
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743190
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

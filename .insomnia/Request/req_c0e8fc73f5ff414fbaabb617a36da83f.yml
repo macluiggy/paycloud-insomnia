@@ -1,0 +1,140 @@
+_id: req_c0e8fc73f5ff414fbaabb617a36da83f
+type: Request
+parentId: fld_c132c82a1f9446edb5a823d40aea68f6
+modified: 1682701923010
+created: 1682624938731
+url: "{{local_url}}/data/sources"
+name: create by flat file
+description: >-
+  This endpoint allows you to create a data source.
+
+
+  ### Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | Yes |
+
+  | sourceType | String(API, FLAT_FILE, SQL) | Yes |
+
+  | dataGroupId | Integer | Yes |
+
+  | primarySource | Boolean | Yes |
+
+  | data_api_source | Object | Yes (If sourceType is API) |
+
+  | data_sql_source | Object | Yes (If sourceType is SQL) |
+
+  | data_file_source | Object | Yes (If sourceType is FLAT_FILE) |
+
+
+  ### Fields for data api source
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | apiType | String(QUICKBOOKS, NETSUITE) | Yes |
+
+  | token | Text | Yes |
+
+  | realmId | String | Yes |
+
+  | consumerKey | String | Yes |
+
+  | consumerSecretKey | String | Yes |
+
+  | tokenSecret | String | Yes (if apiType is NETSUITE) |
+
+  | refreshToken | String | Yes (if apiType is QUICKBOOKS) |
+
+
+  ### Fields for data file source
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | fileType | String(STANDARD, CUSTOM_FILE) | Yes |
+
+  | columnSeparator | String | Yes |
+
+  | locationFile | String(FTP_SERVER, FILE_ROUTE) | Yes |
+
+  | ftpAddressIp | String | Yes |
+
+  | ftpPort | Integer | Yes |
+
+  | ftpUser | String | Yes |
+
+  | ftpPassword | String | Yes |
+
+  | fileAddress | String | Yes |
+
+  | fileRoute | String | Yes |
+
+  | structure | String ( HEADER_DETAILS, HEADER) | Yes ( if fileType is CUSTOM_FILE) |
+
+  | firstRowToImport | Integer | Yes ( if fileType is CUSTOM_FILE) |
+
+  | columnHeaderIndicator | String | Yes ( if fileType is HEADER_DETAILS) |
+
+  | valueHeaderIndicator | String | Yes ( if fileType is HEADER_DETAILS) |
+
+  | relationshipHeaderDetails | String(COLUMN_RELATED, CONTINUOUS_ROW) | Yes ( if fileType is HEADER_DETAILS) |
+
+  | headerIdIndicator | String | Yes ( if fileType is COLUMN_RELATED) |
+
+  | detailIdIndicator | String | Yes ( if fileType is COLUMN_RELATED) |
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: source
+      id: pair_00ab225b370c44928e00f0d86ad40e8c
+    - id: pair_f349f71c730c45a9beedc105a2c0f9ad
+      name: sourceType
+      value: FLAT_FILE
+      description: ""
+    - id: pair_d7e99b1a17b74d0da5e9cac3661c35e6
+      name: dataGroupId
+      value: 9b73503f-d28d-47a3-b213-45f69f10d16a
+      description: ""
+    - id: pair_476d049ba3984084bfa5805e46ad2fb9
+      name: data_file_source
+      value: '{"locationFile":"MANUAL_UPLOAD","fileType":"STANDARD","columnSeparator":"\t"}'
+      description: ""
+    - id: pair_9d43ca7f03824196a6dac275e712c67d
+      name: sourceTestFile
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/luiggy/Documents/PROGRAMMING/IMAGINEAPPS/standard_file_v2.txt
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_6e3d460fd6d24205ac67eeb81488d68b
+  - id: pair_5051b21e19264fc481887724828b89aa
+    name: test
+    value: ssss
+    description: ""
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743471
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

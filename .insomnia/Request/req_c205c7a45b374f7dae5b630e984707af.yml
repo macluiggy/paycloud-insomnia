@@ -1,0 +1,25 @@
+_id: req_c205c7a45b374f7dae5b630e984707af
+type: Request
+parentId: fld_df69605992064d90bed5b1d2c6ac6cc0
+modified: 1682120459269
+created: 1681506743309
+url: "{{local_url}}/companies/1e8ef1af-21af-4a26-aed5-54bd9a2749d5"
+name: Single Company
+description: This endpoint fetches the company data using its **id**
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743309
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

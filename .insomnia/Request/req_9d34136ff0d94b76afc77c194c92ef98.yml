@@ -1,0 +1,47 @@
+_id: req_9d34136ff0d94b76afc77c194c92ef98
+type: Request
+parentId: fld_df69605992064d90bed5b1d2c6ac6cc0
+modified: 1682459745966
+created: 1681506743310
+url: "{{local_url}}/companies"
+name: Create company
+description: |-
+  This endpoint allows you to create a company
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | Yes |
+  | country | String | Yes |
+  | address | String | Yes |
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Borrar",
+    	"address": "Calle 12345",
+    	"company_subscription": {
+    		"planId": "bd512427-ba93-4ac6-b7ec-e38001ed16f8",
+    		"validTo": "2023-04-30"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_27a7f9649f60433ab48cac0dd80c3904
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743310
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

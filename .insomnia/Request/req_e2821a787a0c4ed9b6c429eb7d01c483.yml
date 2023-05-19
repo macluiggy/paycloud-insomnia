@@ -1,0 +1,38 @@
+_id: req_e2821a787a0c4ed9b6c429eb7d01c483
+type: Request
+parentId: fld_35e8cba79b5b494893378f9c2671698f
+modified: 1683051906138
+created: 1682997047585
+url: "{{local_url}}/output/5b93d640-081b-46ec-b315-a61c5287c26f"
+name: /:id (scheduled/manual)
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name": "aaaad",
+        "outputExecutionType": "manual",
+        "isEmail": true,
+        "isDocument": false,
+        "isAch": false,
+        "emailCheckTemplateId": "8dc20325-cfe4-4ecb-990b-161f3dba30b6"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c46b8c82c9a482db3be6cbd743e5fae
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: 575
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

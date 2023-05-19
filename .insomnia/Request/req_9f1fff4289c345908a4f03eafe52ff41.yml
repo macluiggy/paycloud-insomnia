@@ -1,0 +1,51 @@
+_id: req_9f1fff4289c345908a4f03eafe52ff41
+type: Request
+parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
+modified: 1682008767821
+created: 1681506743270
+url: "{{local_url}}/users/35607311-dd0d-41a3-9ac7-dd2a021500c2"
+name: Update User
+description: |-
+  This endpoint allows you to partial update a user information using its id.
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | email | String | No |
+  | fullName | String | No |
+  | companyId | Integer | No |
+  | singature | File | No |
+  | groupId | Integer | No |
+  | phone | Integer | No |
+  | signatureLimit | Integer | No |
+  | approvalLimit | Integer | No |
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: isActive
+      disabled: false
+      value: "true"
+      id: pair_f9215459725d4687bcdda35aaa71a32e
+    - type: text
+      name: password
+      disabled: false
+      value: holamundo123
+      id: pair_4249dc61a09a49dbbf2ecdfa8cda5805
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

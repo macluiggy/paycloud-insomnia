@@ -1,0 +1,25 @@
+_id: req_3d1b0b75b28640df87ffb82fb3e8ca83
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1681506743184
+created: 1681506743184
+url: "{{local_url}}/bank/account/ach-eft-destination/1"
+name: Delete ACH/EFT Destination
+description: This endpoint allows you to delete an existing positive pay using its **id**
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

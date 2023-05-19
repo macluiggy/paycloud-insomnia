@@ -1,0 +1,25 @@
+_id: req_f3ac92281ebb4b28b9715327e23b8a59
+type: Request
+parentId: fld_c132c82a1f9446edb5a823d40aea68f6
+modified: 1682622743759
+created: 1681506743461
+url: "{{local_url}}/data/sources/ea8f6a88-6b47-4204-85d7-be4687654788"
+name: /:id
+description: This endpoint fetches a single data source having specified id.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

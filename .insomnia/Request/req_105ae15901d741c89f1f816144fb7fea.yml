@@ -1,0 +1,32 @@
+_id: req_105ae15901d741c89f1f816144fb7fea
+type: Request
+parentId: fld_75f9bace7cef493a9e8a8d292adb4b43
+modified: 1682349704055
+created: 1681520482506
+url: "{{ _.local_url }}/notification/search"
+name: /search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "bankNotifications",
+    	"enabled": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681507810947.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

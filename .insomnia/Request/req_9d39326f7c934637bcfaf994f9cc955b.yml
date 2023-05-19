@@ -1,0 +1,154 @@
+_id: req_9d39326f7c934637bcfaf994f9cc955b
+type: Request
+parentId: fld_e3b82a4ededb4cefaf784b9f26013cce
+modified: 1683131364334
+created: 1681506743178
+url: "{{local_url}}/groups/0258823c-bec6-4f78-bfb9-ab0e67eb6273"
+name: Update Group
+description: >-
+  ## Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | No |
+
+  | group_users | Array | No |
+
+  | group_permissions | Array | No |
+
+
+  ## Fields for group_users
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | userId | String | No |
+
+
+  Fields for group_permissions
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | moduleName | String (Dashboard, Payments, Output Manager, Data Sources, Resources) | No |
+
+  | permissions | Object | No |
+
+
+  ### Fields for permissions
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | view | Boolean | No |
+
+  | create | Boolean | No |
+
+  | edit | Boolean | No |
+
+  | delete | Boolean | No |
+
+  | print | Boolean | No |
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name": "hola",
+        "group_users": [
+            {
+                "userId": "a9af1798-8aa4-4d90-be99-cc5e77404744"
+            },
+            {
+                "userId": "85f13656-a020-4a63-a396-f37a0469f57d"
+            }
+        ],
+        "permissions": {
+            "payments": {
+                "createBatch": false,
+                "createTransaction": false,
+                "manualImport": false,
+                "sendToOutput": true,
+                "reprint": true,
+                "void": false
+            },
+            "dashboard": {
+                "view": false
+            },
+            "outputManager": {
+                "view": false,
+                "update": false,
+                "create": false,
+                "delete": false,
+                "configure": false
+            },
+            "reports": {
+                "configure": false,
+                "view": false
+            },
+            "payees": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false,
+                "import": false
+            },
+            "banks": {
+                "create": true,
+                "view": false,
+                "update": false,
+                "delete": false
+            },
+            "bankAccounts": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false
+            },
+            "users": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false
+            },
+            "printers": {
+                "view": false
+            },
+            "dataGroups": {
+                "create": false,
+                "view": false,
+                "update": false,
+                "delete": false,
+                "column": false,
+                "automatic": false
+            }
+        },
+        "groupRole": "printManager"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7a27b3c6229a471090b1952280fcaec3
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

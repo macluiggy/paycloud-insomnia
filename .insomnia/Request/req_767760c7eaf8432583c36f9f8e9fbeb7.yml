@@ -1,0 +1,38 @@
+_id: req_767760c7eaf8432583c36f9f8e9fbeb7
+type: Request
+parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
+modified: 1682006351995
+created: 1681506743243
+url: "{{local_url}}/transactions/reprint"
+name: Reprint Transactions
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+    	"bankAccountId": "ff00c905-e2b8-4d27-a4af-6512cd1fcb62",
+    	"transactions": [
+    	{
+    		"transactionId": "227c49dd-1619-4ef0-a872-55e390a58b6c"
+    	}
+    ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aa6fb1f0d4c04c76bc243a31a11017f2
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743243
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

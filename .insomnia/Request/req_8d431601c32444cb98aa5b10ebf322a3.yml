@@ -1,0 +1,42 @@
+_id: req_8d431601c32444cb98aa5b10ebf322a3
+type: Request
+parentId: fld_36dfb5ee4ee24d63bd5cffec6ac99751
+modified: 1682000815659
+created: 1681956942146
+url: "{{local_url}}/printer"
+name: Create Printer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"printerName": "test printer",
+    	"printerLocation": "miKasa",
+    	"omPlusSettings": {
+    	},
+    	"printerIdCloud": "hjhg",
+    	"areaId": 123,
+    	"location": "MIkasa",
+    	"statusCode": "hola",
+    	"status": "con hambre",
+    	"statusMessage": "yo tambien"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0899de605ec64f62ba4c3a4f4524066f
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743155.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

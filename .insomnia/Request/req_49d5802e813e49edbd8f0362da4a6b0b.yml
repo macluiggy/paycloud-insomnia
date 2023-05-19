@@ -1,0 +1,27 @@
+_id: req_49d5802e813e49edbd8f0362da4a6b0b
+type: Request
+parentId: fld_b5947f695eb040208eb5eb72420f48b9
+modified: 1681506743187
+created: 1681506743187
+url: "{{local_url}}/bank/account/positive-pay/:positivePayId/history/:positiveP\
+  ayLogId/preview"
+name: Preview Positive Pay
+description: Return the preview of generated positive pay of the specific
+  positive pay log Id
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743187
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_48c4fe3b5d8c405eab8c831fa6a3b667
+type: Request
+parentId: fld_504c73ce36c14ea3a857cec875b0e9cb
+modified: 1681850322164
+created: 1681506743212
+url: "{{local_url}}/bank"
+name: All Banks
+description: This endpoint fetches all the banks that created
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743212
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

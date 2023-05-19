@@ -1,0 +1,25 @@
+_id: req_e5bf0074cedd4df5887e7e5286fc2ea2
+type: Request
+parentId: fld_df69605992064d90bed5b1d2c6ac6cc0
+modified: 1682120457049
+created: 1681506743309
+url: "{{local_url}}/companies"
+name: All Companies
+description: This endpoint fetches all the companies that created
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743309
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

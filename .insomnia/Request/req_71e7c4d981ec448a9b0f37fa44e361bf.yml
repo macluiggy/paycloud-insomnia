@@ -1,0 +1,25 @@
+_id: req_71e7c4d981ec448a9b0f37fa44e361bf
+type: Request
+parentId: fld_1cad430a01594320bbeb9abf0c8a0248
+modified: 1681506743141
+created: 1681506743141
+url: "{{local_url}}/error/logs/server"
+name: Get Server Error Logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743141
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

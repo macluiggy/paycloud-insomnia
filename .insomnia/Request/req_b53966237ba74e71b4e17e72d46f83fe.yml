@@ -1,0 +1,25 @@
+_id: req_b53966237ba74e71b4e17e72d46f83fe
+type: Request
+parentId: fld_495bae72fe7d4d339eecca06523cb4a8
+modified: 1681506743160
+created: 1681506743160
+url: "{{local_url}}/output/log/f07eed5c-0bff-4dbf-86ea-68345e9f3354"
+name: Ouput Log By Transaction ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

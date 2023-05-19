@@ -1,0 +1,35 @@
+_id: req_c1ba996742da432c8ceed6dadf36bfce
+type: Request
+parentId: fld_072844a01644457097c9253d70c237d5
+modified: 1682371096198
+created: 1682353053335
+url: "{{ _.local_url }}/subscriptions/517c4c9a-a1a5-4941-b1cb-6e7cde67c291"
+name: /:id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "borrar updated"
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479567.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

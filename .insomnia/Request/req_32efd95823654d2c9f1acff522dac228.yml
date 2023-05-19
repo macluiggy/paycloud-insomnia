@@ -1,0 +1,71 @@
+_id: req_32efd95823654d2c9f1acff522dac228
+type: Request
+parentId: fld_ea4ccd0a07fc4cd8b4225b2f162ca2ca
+modified: 1682007863717
+created: 1681506743192
+url: "{{local_url}}/bank/account/signatures/12ea0295-0558-467c-be3e-9e60a605de33"
+name: Update Signature
+description: |-
+  This endpoint allows you to update a signature using its **id.**
+
+  The endpoint allows you to edit the following fields
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | No |
+  | signatureName | String | No |
+  | minLimit | Decimal(10,2) | No |
+  | maxLimit | Decimal(10,2) | No |
+  | configureSignatureFlow | Boolean | No |
+  | autoSignature | Boolean | No |
+  | autoReject | Boolean | No |
+  | signature_users | Array | No |
+  | signature_groups | Array | No |
+
+  ### Signature_users
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | userId | Integer | Yes |
+
+  ### Signature_groups
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | groupId | Integer | Yes |
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "bankAccountId": "ed5de8f0-47f5-4c0c-b260-30e02a488c24",
+        "signatureName": "no borrar",
+        "minLimit": 140,
+        "maxLimit": 300,
+        "configureSignatureFlow": false,
+        "signature_users": [
+            {
+                "userId": "0f148eaf-4deb-4e55-adc8-4f0c6bcca36d"
+            }
+        ],
+        "signature_groups": [
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9c792421c2db47ac936572cacb4ea7b5
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743192
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

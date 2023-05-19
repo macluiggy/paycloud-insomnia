@@ -1,0 +1,23 @@
+_id: req_dffef94a166e488c9c355f277fb8b61a
+type: Request
+parentId: fld_ead5a1a9ec3d49f7a4e2992b51086419
+modified: 1683836853669
+created: 1683836843493
+url: "{{ _.local_url }}/billing/details"
+name: /
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1682673632838
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

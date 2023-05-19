@@ -1,0 +1,72 @@
+_id: req_7cbca34e959645d883a181b4ddec9ff6
+type: Request
+parentId: fld_04d825877a2547b4b16da501617e93be
+modified: 1682707501862
+created: 1681506743332
+url: "{{local_url}}/data/details"
+name: Create Details Mapping
+description: |-
+  This endpoints allows you to create a details mapping
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | columnIndex | Integer | If not exist columnName then it's required |
+  | columnName | String | If not exist columnIndex then it's required |
+  | payCloudColumn | String | Yes |
+  | dataSourceId | Integer | Yes |
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"dataSourceId\": \"cde2cb47-6483-4450-82f0-b02c3b156c66\",\r
+
+    \        \"columnIndex\": 10,\r
+
+    \        \"payCloudColumn\": \"amount\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"dataSourceId\": \"cde2cb47-6483-4450-82f0-b02c3b156c66\",\r
+
+    \        \"columnIndex\": 3,\r
+
+    \        \"payCloudColumn\": \"date\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"dataSourceId\": \"cde2cb47-6483-4450-82f0-b02c3b156c66\",\r
+
+    \        \"columnIndex\": 12,\r
+
+    \        \"payCloudColumn\": \"description\"\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4408909d801847f2987572e184706054
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

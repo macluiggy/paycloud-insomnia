@@ -1,0 +1,52 @@
+_id: req_f986c769644e4b11b31d971fdaddb915
+type: Request
+parentId: fld_ec61e6b3823e456881c90a0f00d542b2
+modified: 1681956176055
+created: 1681506743170
+url: "{{local_url}}/design/studio/emails/7e90df89-292f-43e1-8805-7cb384a83109"
+name: Update Email Template
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: name
+      disabled: false
+      value: Email template updated
+      id: pair_302085b6f5b94d01b0cd0279e8f9463b
+    - type: text
+      name: passwordProtected
+      disabled: false
+      value: "true"
+      id: pair_77fe537332644480a0c18c0ead5c92c1
+    - type: text
+      name: type
+      disabled: false
+      value: Check
+      id: pair_7f5c5b48a6844c4aaa382328b7eea179
+    - type: text
+      name: documentTemplateId
+      disabled: false
+      value: ab0f75a8-2de9-4e68-a43f-dd076401956a
+      id: pair_f2e455fa3d384fb48da54bd5c26bcdd0
+    - type: text
+      name: passwordFile
+      disabled: false
+      value: hello
+      id: pair_478e047137cc4a4989307b63ad981276
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

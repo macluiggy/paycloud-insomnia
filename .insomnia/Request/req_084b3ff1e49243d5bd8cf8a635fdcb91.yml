@@ -1,0 +1,51 @@
+_id: req_084b3ff1e49243d5bd8cf8a635fdcb91
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1682990068066
+created: 1681506743215
+url: "{{local_url}}/bank/account/a2ff823d-9476-4802-896f-48c293ed4b9b/workflows"
+name: Update Workflows
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: checkNumberingEnabled
+      disabled: false
+      value: "false"
+      id: pair_986146f30da74b4aa910655d3531ba7d
+    - type: text
+      name: checkApprovalEnabled
+      disabled: false
+      value: "true"
+      id: pair_eefc9f5210824bd1b2d068b269a70729
+    - type: text
+      name: checkSignatureEnabled
+      disabled: false
+      value: "false"
+      id: pair_4d305b60aaad4992933644b58ff39e1f
+    - type: text
+      name: checkPositivePayEnabled
+      disabled: false
+      value: "false"
+      id: pair_16946b0af0854746b1b3f4148f783c6c
+    - id: pair_5a2df393d31f48e38d0acaf5f552e342
+      name: checkPositivePayEnabled
+      value: "true"
+      description: ""
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743215
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

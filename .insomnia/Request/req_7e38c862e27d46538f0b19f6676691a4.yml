@@ -1,0 +1,79 @@
+_id: req_7e38c862e27d46538f0b19f6676691a4
+type: Request
+parentId: fld_b48b17e04e044175bd250d2e9b73b270
+modified: 1683304382525
+created: 1681506743166
+url: "{{local_url}}/design/studio/documents/f1cfa395-dfd9-43e8-b2d7-595aa32b25ae"
+name: Update Document Template
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name": "sss",
+        "nonNegotiableLabel": "sss",
+        "paperType": "Letter",
+        "additionalPage": "1",
+        "templateProperties": {
+            "elements": [
+                {
+                    "type": "checkArea",
+                    "page": 1,
+                    "name": "Check Area",
+                    "width": 215.9,
+                    "height": 88.9,
+                    "x": 0,
+                    "y": 0,
+                    "micrLineCoords": {
+                        "x": 50,
+                        "y": 4.5
+                    },
+                    "checkAreaNumber": 1
+                },
+                {
+                    "type": "barCode",
+                    "page": 1,
+                    "name": "aa",
+                    "width": 45,
+                    "height": 20,
+                    "x": 75,
+                    "y": 10,
+                    "barCodeType": "code39"
+                },
+                {
+                    "type": "barCode",
+                    "page": 1,
+                    "name": "aaa",
+                    "width": 45,
+                    "height": 20,
+                    "x": 26.38,
+                    "y": 13.97,
+                    "barCodeType": "code39"
+                }
+            ]
+        },
+        "checksPerPage": "1",
+        "checkPosition": "top",
+        "micrLine": true,
+        "isPreset": false,
+        "background": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_701527ffbdd144468851f90a6c6a7594
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_56da5c4d8dc14cf999f9155362726cf5
+type: Request
+parentId: fld_04d825877a2547b4b16da501617e93be
+modified: 1681506743327
+created: 1681506743327
+url: "{{local_url}}/data/details"
+name: Delete Detail Mapping
+description: This endpoint can be used to delete an existing detail mapping using its id
+method: DELETE
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"idColumnMapping\": 12\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"idColumnMapping\": 14\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743327
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

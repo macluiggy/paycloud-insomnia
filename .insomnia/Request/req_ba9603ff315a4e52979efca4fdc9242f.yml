@@ -1,0 +1,25 @@
+_id: req_ba9603ff315a4e52979efca4fdc9242f
+type: Request
+parentId: fld_73df2ed1f18f47b287fa658b11b53b43
+modified: 1681506743220
+created: 1681506743220
+url: "{{local_url}}/payees/961dd024-7bfe-4d3d-ac61-dad790f7d1d6"
+name: Single Payee
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

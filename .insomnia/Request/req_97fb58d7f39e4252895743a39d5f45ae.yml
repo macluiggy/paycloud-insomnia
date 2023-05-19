@@ -1,0 +1,25 @@
+_id: req_97fb58d7f39e4252895743a39d5f45ae
+type: Request
+parentId: fld_385ee22027b447a3874d3bb5a9083541
+modified: 1681506743131
+created: 1681506743131
+url: "{{local_url}}/device/company"
+name: Devices Per Company
+description: This endpoint can be used to delete an existing user using its **id**
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

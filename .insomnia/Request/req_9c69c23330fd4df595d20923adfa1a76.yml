@@ -1,0 +1,35 @@
+_id: req_9c69c23330fd4df595d20923adfa1a76
+type: Request
+parentId: fld_e3c40d3858b14db89d6953401e23b1d8
+modified: 1682988043105
+created: 1682988034668
+url: "{{local_url}}/reports"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "report no borrar",
+        "reportFormat": "PDF",
+        "columns": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d2d4e9667ea24a5b81b1667e0665d252
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743148.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

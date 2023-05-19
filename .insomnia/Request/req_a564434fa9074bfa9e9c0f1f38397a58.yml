@@ -1,0 +1,52 @@
+_id: req_a564434fa9074bfa9e9c0f1f38397a58
+type: Request
+parentId: fld_8fb623dd91a14ed4a6bb14515570333e
+modified: 1681508761982
+created: 1681506743523
+url: "{{local_url}}/auth/two-factor/verify-code"
+name: Verify Code
+description: |-
+  StartFragment
+
+  This endpoint verify the code to login
+
+  EndFragment
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: default
+      name: code
+      disabled: false
+      value: "666297"
+      id: pair_9adf13be2f8a4229a580312c1a06f13f
+    - type: text
+      name: saveDevice
+      disabled: false
+      value: "true"
+      id: pair_c7fbe2830a1b4d61af184bf891689b2d
+    - type: text
+      name: fingerPrint
+      disabled: false
+      value: "1706598348"
+      id: pair_151ec8f0525e48af9b0a9ceb20f3ce23
+    - type: text
+      name: expireDays
+      disabled: false
+      value: "30"
+      id: pair_85a628ac8c794e9f9c72e5dc30b473ec
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

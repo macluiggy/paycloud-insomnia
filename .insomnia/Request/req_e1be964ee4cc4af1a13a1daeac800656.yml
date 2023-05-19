@@ -1,0 +1,25 @@
+_id: req_e1be964ee4cc4af1a13a1daeac800656
+type: Request
+parentId: fld_65a96229417449cda74ba8f20c5afadf
+modified: 1681506743195
+created: 1681506743195
+url: "{{local_url}}/bank/account/approvals/48"
+name: Single Approval
+description: This endpoint fetches the approval data using its **id**
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

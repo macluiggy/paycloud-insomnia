@@ -1,0 +1,25 @@
+_id: req_d855ece81a7e4e7594faad122408cbef
+type: Request
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1684449352023
+created: 1681506743225
+url: "{{local_url}}/transactions/4f25a1cd-a545-4a3e-8c77-1c5c385d51a6"
+name: Single Transaction
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

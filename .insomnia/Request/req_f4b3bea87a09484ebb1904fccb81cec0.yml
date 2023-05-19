@@ -1,0 +1,25 @@
+_id: req_f4b3bea87a09484ebb1904fccb81cec0
+type: Request
+parentId: fld_adae1b3f5b8b4613b9b2657af7cae670
+modified: 1681506743430
+created: 1681506743430
+url: "{{local_url}}/data/sql/1"
+name: Delete Sql Source
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

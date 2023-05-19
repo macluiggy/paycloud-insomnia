@@ -1,0 +1,27 @@
+_id: req_b62283f11edb4a4da5ad0f9b398e4656
+type: Request
+parentId: fld_ff9b3039c35445c2bdb0d7266f576572
+modified: 1681506743420
+created: 1681506743420
+url: "{{local_url}}/data/files"
+name: All File Sources
+description: This endpoint fetches all the files sources.
+method: GET
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743420
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

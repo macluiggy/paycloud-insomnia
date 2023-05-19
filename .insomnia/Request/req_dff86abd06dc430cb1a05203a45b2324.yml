@@ -1,0 +1,25 @@
+_id: req_dff86abd06dc430cb1a05203a45b2324
+type: Request
+parentId: fld_ff9b3039c35445c2bdb0d7266f576572
+modified: 1681506743417
+created: 1681506743417
+url: "{{local_url}}/data/files/2"
+name: Single File Source
+description: This endpoint fetches a single file source using its id
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

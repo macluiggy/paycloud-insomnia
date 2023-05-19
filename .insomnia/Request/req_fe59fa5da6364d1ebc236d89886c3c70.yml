@@ -1,0 +1,43 @@
+_id: req_fe59fa5da6364d1ebc236d89886c3c70
+type: Request
+parentId: fld_aede65bc15f544efbfe5c9a75daafa72
+modified: 1683560870025
+created: 1682361238494
+url: "{{ _.local_url }}/subscriptions/feature"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "automatic ach/eft generation"
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_6b205181358f4ba1b55673ccc850cffd
+    name: size
+    value: "1"
+    description: ""
+  - id: pair_5bdc082deb664bfb98e06bf2308646aa
+    name: page
+    value: "2"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_235ebfa9c2964ced8e44b95da76479b1
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479463.2188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

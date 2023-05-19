@@ -1,0 +1,26 @@
+_id: req_2de41cc576e24e02aa8e60f540dc6496
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1681506743185
+created: 1681506743185
+url: "{{local_url}}/bank/account/ach-eft-destination/8b81a9ad-05ff-4f76-aa42-1f\
+  f73525ed16/download?initialDate=05/01/2022&finalDate=08/31/2022"
+name: Download ACH/EFT File
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

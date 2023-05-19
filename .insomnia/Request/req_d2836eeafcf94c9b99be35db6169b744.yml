@@ -1,0 +1,55 @@
+_id: req_d2836eeafcf94c9b99be35db6169b744
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1681506743185
+created: 1681506743185
+url: "{{local_url}}/bank/account/ach-eft-destination/1"
+name: Update ACH/EFT Destination
+description: |-
+  This endpoint allows you to update a positive pay using its **id.**
+
+  The endpoint allows you to edit the following fields
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | No |
+  | ipAddress | IP | No |
+  | port | Integer | No |
+  | user | String | No |
+  | password | String | No |
+  | emailAddress | String | No |
+  | importFrequency | String(Days, Hours) | No |
+  | timeFrequency | Integer | No |
+  | path | String | No |
+  | paymentType | String(Checks, ACH/EFT) | No |
+method: PATCH
+body:
+  params:
+    - type: default
+      name: importFrequency
+      disabled: false
+      value: Hours
+    - type: default
+      name: timeFrequency
+      disabled: false
+      value: "12"
+    - type: text
+      name: path
+      disabled: false
+      value: files/
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

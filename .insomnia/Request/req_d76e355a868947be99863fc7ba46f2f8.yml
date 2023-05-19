@@ -1,0 +1,62 @@
+_id: req_d76e355a868947be99863fc7ba46f2f8
+type: Request
+parentId: fld_e3c40d3858b14db89d6953401e23b1d8
+modified: 1682988042004
+created: 1681506743149
+url: "{{local_url}}/reports"
+name: Create Report
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: reportTemplateId
+      disabled: false
+      value: d53a1acc-7e56-4f22-a29b-475640db6e10
+      id: pair_4db5b3a825f043469f373bf3fe4ea493
+    - type: text
+      name: initialDate
+      disabled: false
+      value: 10/01/2022
+      id: pair_e13213b90cbc44db9889e807f1f368bb
+    - type: text
+      name: finalDate
+      disabled: false
+      value: 11/01/2022
+      id: pair_bee8735df7494ab1b94ee7eb1708d381
+    - type: text
+      name: dateCriteriaField
+      disabled: false
+      value: transactionDate
+      id: pair_1c7bf2683a1f4dc79ac6c1cdadc8b277
+    - type: text
+      name: searchBy
+      disabled: true
+      value: type
+      id: pair_a2cde2fccc134e69953b839fcabf897b
+    - type: text
+      name: searchValue
+      disabled: true
+      value: Check
+      id: pair_6113f0dcd42446a9ad771f754666b641
+    - type: text
+      name: reportSortBy
+      disabled: false
+      value: checkNumber
+      id: pair_2ae9c56bacb54bbc801155ef93032ab2
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743149
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

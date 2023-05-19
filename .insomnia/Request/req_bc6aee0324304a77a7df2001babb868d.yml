@@ -1,0 +1,31 @@
+_id: req_bc6aee0324304a77a7df2001babb868d
+type: Request
+parentId: fld_495bae72fe7d4d339eecca06523cb4a8
+modified: 1681506743159
+created: 1681506743159
+url: "{{local_url}}/output/retry/ftp"
+name: Retry FTP send
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: transactionId
+      disabled: false
+      value: 451df1ed-7da1-4bd4-9e5f-e671ebc88101
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743159
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

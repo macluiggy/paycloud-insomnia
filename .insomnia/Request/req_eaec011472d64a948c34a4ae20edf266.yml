@@ -1,0 +1,97 @@
+_id: req_eaec011472d64a948c34a4ae20edf266
+type: Request
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1681932954358
+created: 1681930658622
+url: "{{local_url}}/transactions"
+name: Delete Transaction
+description: >-
+  This endpoint allows you to create transactions with the transactions details
+  of it and the payee transaction is optional.
+
+
+  ## **Request**
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | type | String(Electronic Payment, Checks) | Yes |
+
+  | batchId | Integer | Yes |
+
+  | bankAccountId | Integer | Yes |
+
+  | amount | Decimal(20,2) | Yes |
+
+  | payeeId | Integer | No  <br>if the payee exist it's required. |
+
+  | date | Date | Yes |
+
+  | binNumber | String | No |
+
+  | swiftNumber | String | No |
+
+  | transaction_payee | Object | No |
+
+  | transaction_detail | Array | No |
+
+
+  #### A transactions always has a tansaction_detail with the following fields.
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | amount | Decimal(20,2) | Yes |
+
+  | description | String | Yes |
+
+  | date | Date | Yes |
+
+
+  **If you need create a new payee, you have to include the following fields in the object transactions_payee**
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | Yes |
+
+  | phone | Integer | No |
+
+  | email | String | Yes |
+
+  | addressLine1 | String | Yes |
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+       "transactions": [
+    		 {
+    			 "transactionId": "da730ba8-b1ba-4dae-892b-50e9cd735841"
+    		 }
+    	 ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_20fdb87081044894832034bb2b5f1b7f
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743225.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

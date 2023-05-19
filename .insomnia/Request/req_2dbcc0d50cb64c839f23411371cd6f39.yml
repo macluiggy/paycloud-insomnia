@@ -1,0 +1,52 @@
+_id: req_2dbcc0d50cb64c839f23411371cd6f39
+type: Request
+parentId: fld_072844a01644457097c9253d70c237d5
+modified: 1682521563485
+created: 1682345524939
+url: "{{ _.local_url }}/subscriptions"
+name: /
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"restrictions": {
+    		"notificationCompanyPreferences": [
+    			{
+    				"name": "bankNotifications",
+    				"enabled": true,
+    				"cc": ["ferrinluiggy@gmail.com", "luiggy@yopmail.com"]
+    			},
+    			{
+    				"name": "groupNotifications",
+    				"enabled": true,
+    				"cc": []
+    			}
+    		]
+    	}
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_bb1f45b445434130b61464904f56b137
+    name: size
+    value: "100"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479492.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

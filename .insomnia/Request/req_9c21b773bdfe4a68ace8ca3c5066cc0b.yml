@@ -1,0 +1,49 @@
+_id: req_9c21b773bdfe4a68ace8ca3c5066cc0b
+type: Request
+parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
+modified: 1681506743239
+created: 1681506743239
+url: "{{local_url}}/transactions/void"
+name: Void Transactions
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"transactionId\": \"b030aa7a-19dc-4b3d-b413-be3371dd57d5\"\r
+
+    \    },\r
+
+    \t{\r
+
+    \t\t\"transactionId\": \"31c2b6a0-9f54-4d0c-92fe-c588e642340f\"\r
+
+    \t},\r
+
+    \t{\r
+
+    \t\t\"transactionId\": \"fb02f4f0-9a96-46a2-93d9-10f0deaadd2a\"\r
+
+    \t}\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,61 @@
+_id: req_c4030ed21acd4ff9a97a4cbbdea3965c
+type: Request
+parentId: fld_ee6b38bce3444c53b6383d1bd4fa3b2f
+modified: 1681506743321
+created: 1681506743321
+url: "{{local_url}}/data/relationship"
+name: Create Relationship
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"dataGroupId\": \"6508285f-8143-4049-9648-02c53c62d42d\",\r
+
+    \        \"dataSourceId\": \"43ac2cc8-8c33-4d58-b1bb-1b13ed875799\",\r
+
+    \        \"columnIndex\": 3\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"dataGroupId\": \"6508285f-8143-4049-9648-02c53c62d42d\",\r
+
+    \        \"dataSourceId\": \"73c15fc1-e7bf-487d-bfa2-810b3b37b77c\",\r
+
+    \        \"columnName\": \"number\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"dataGroupId\": \"6508285f-8143-4049-9648-02c53c62d42d\",\r
+
+    \        \"dataSourceId\": \"6690db69-10e5-43ac-b8cc-069480935604\",\r
+
+    \        \"columnIndex\": 2\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743321
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

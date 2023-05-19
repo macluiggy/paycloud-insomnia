@@ -1,0 +1,25 @@
+_id: req_ea4e5d07a5df428484960da8c9ba4ccc
+type: Request
+parentId: fld_6907f15c02e249b68584a63f5746338b
+modified: 1682610644186
+created: 1681506743143
+url: "{{local_url}}/alerts?page=1"
+name: Get Alerts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743143
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

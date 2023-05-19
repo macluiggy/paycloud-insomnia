@@ -1,0 +1,25 @@
+_id: req_3114188869004aeb9c46824af0cddd6f
+type: Request
+parentId: fld_36dfb5ee4ee24d63bd5cffec6ac99751
+modified: 1681957393554
+created: 1681506743156
+url: "{{local_url}}/printer"
+name: Get Printers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

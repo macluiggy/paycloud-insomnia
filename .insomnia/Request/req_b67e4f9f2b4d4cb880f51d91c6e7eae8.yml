@@ -1,0 +1,25 @@
+_id: req_b67e4f9f2b4d4cb880f51d91c6e7eae8
+type: Request
+parentId: fld_ec61e6b3823e456881c90a0f00d542b2
+modified: 1681956185047
+created: 1681506743170
+url: "{{local_url}}/design/studio/emails/7e90df89-292f-43e1-8805-7cb384a83109"
+name: Delete Email Template
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

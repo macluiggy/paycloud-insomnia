@@ -1,0 +1,72 @@
+_id: req_05d4595aec304784a7f332dff55a72d7
+type: Request
+parentId: fld_73df2ed1f18f47b287fa658b11b53b43
+modified: 1681916731621
+created: 1681506743221
+url: "{{local_url}}/payees"
+name: Create Payees
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \t\t\"name\": \"test 1\",\r
+
+    \t\t\"addressLine1\": \"line 1\",\r
+
+    \t\t\"country\": \"Colombia\",\r
+
+    \t\t\"city\": \"Bogota\",\r
+
+    \t\t\"state\": \"Bogota\",\r
+
+    \t\t\"email\": \"test1@gmail.com\",\r
+
+    \t\t\"payeeAccountNumber\": \"1234567891\",\r
+
+    \t\t\"payeeRoutingNumber\": \"123456789\"\r
+
+    \t},\r
+
+    \t{\r
+
+    \t\t\"name\": \"test 2\",\r
+
+    \t\t\"addressLine1\": \"line 1\",\r
+
+    \t\t\"country\": \"Colombia\",\r
+
+    \t\t\"city\": \"Bogota\",\r
+
+    \t\t\"state\": \"Bogota\",\r
+
+    \t\t\"email\": \"test2@gmail.com\",\r
+
+    \t\t\"payeeAccountNumber\": \"1234567891\",\r
+
+    \t\t\"payeeRoutingNumber\": \"123456789\"\r
+
+    \t}\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fe17cc1830394e0da99eef4450ee92c8
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_f4d4f4ca15c84571b2dda2fe2565cc03
+type: Request
+parentId: fld_75f9bace7cef493a9e8a8d292adb4b43
+modified: 1682436928795
+created: 1681511013201
+url: "{{ _.local_url }}/notification/company"
+name: /company
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"restrictions": {
+    		"notificationCompanyPreferences": [
+    			{
+    				"name": "bankNotificationss",
+    				"enabled": true,
+    				"cc": ["ferrinluiggy@gmail.com", "luiggy@yopmail.com"]
+    			},
+    			{
+    				"name": "groupNotifications",
+    				"enabled": true,
+    				"cc": []
+    			}
+    		]
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681511013201
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

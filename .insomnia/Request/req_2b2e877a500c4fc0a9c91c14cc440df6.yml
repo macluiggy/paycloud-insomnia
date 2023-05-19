@@ -1,0 +1,25 @@
+_id: req_2b2e877a500c4fc0a9c91c14cc440df6
+type: Request
+parentId: fld_35e8cba79b5b494893378f9c2671698f
+modified: 1682997021684
+created: 1681506743156
+url: "{{local_url}}/output/45cf6810-39c8-42d0-b0b1-ef693e8473ff"
+name: Delete Output
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: 700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

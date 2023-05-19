@@ -1,0 +1,69 @@
+_id: req_b260c6a0db2e44d7aa3b3653a3556930
+type: Request
+parentId: fld_65a96229417449cda74ba8f20c5afadf
+modified: 1681506743194
+created: 1681506743194
+url: "{{local_url}}/bank/account/approvals?paymentType=Check"
+name: Get Approvals
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"approvalName\": \"Users Approvals\",\r
+
+    \        \"minLimit\": \"0\",\r
+
+    \        \"maxLimit\": \"100\",\r
+
+    \        \"paymentType\": \"Check\",\r
+
+    \        \"bankAccountId\": \"dd0b11e7-08ec-46fa-b284-c155b2281f39\",\r
+
+    \        \"configureApprovalFlow\": true,\r
+
+    \        \"approval_users\": [\r
+
+    \            {\r
+
+    \                \"userId\": \"534a53ae-b125-49fc-bbd7-13f17c47fb7e\"\r
+
+    \            },\r
+
+    \            {\r
+
+    \                \"userId\": \"a91d36ec-cfaf-48da-84ff-faaab43864fa\"\r
+
+    \            },\r
+
+    \            {\r
+
+    \                \"userId\": \"2c58ec1d-f73d-43f9-a68a-4fc1691a0c71\"\r
+
+    \            }\r
+
+    \        ]\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

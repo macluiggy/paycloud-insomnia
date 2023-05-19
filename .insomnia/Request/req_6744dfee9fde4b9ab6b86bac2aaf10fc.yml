@@ -1,0 +1,25 @@
+_id: req_6744dfee9fde4b9ab6b86bac2aaf10fc
+type: Request
+parentId: fld_36dfb5ee4ee24d63bd5cffec6ac99751
+modified: 1681956929378
+created: 1681506743155
+url: "{{local_url}}/printer/areas/3486"
+name: Get printers by area
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743155
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

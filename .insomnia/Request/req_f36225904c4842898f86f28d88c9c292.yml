@@ -1,0 +1,35 @@
+_id: req_f36225904c4842898f86f28d88c9c292
+type: Request
+parentId: fld_adae1b3f5b8b4613b9b2657af7cae670
+modified: 1681506743431
+created: 1681506743431
+url: "{{local_url}}/data/sql/1"
+name: Update Sql Source
+description: ""
+method: PATCH
+body:
+  params:
+    - type: text
+      name: dialect
+      disabled: false
+      value: postgres
+    - type: text
+      name: storedProcedure
+      disabled: false
+      value: SELECT * FROM all_data();
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743431
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

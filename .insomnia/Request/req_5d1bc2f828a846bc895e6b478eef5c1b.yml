@@ -1,0 +1,48 @@
+_id: req_5d1bc2f828a846bc895e6b478eef5c1b
+type: Request
+parentId: fld_ee6b38bce3444c53b6383d1bd4fa3b2f
+modified: 1681506743311
+created: 1681506743311
+url: "{{local_url}}/data/relationship"
+name: Update Relationship
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \t\t\"idDataRelationship\": \"8deb3422-62f5-448d-b292-53696919ed35\",\r
+
+    \        \"columnIndex\": 6\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"idDataRelationship\":
+    \"70e61f62-bdc0-49ea-93c4-a25bbb04d9d5\",\r
+
+    \        \"columnIndex\": 4\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743311
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

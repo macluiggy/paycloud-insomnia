@@ -1,0 +1,32 @@
+_id: req_b736475606974966a2a33b5af5043450
+type: Request
+parentId: fld_ead5a1a9ec3d49f7a4e2992b51086419
+modified: 1683904065233
+created: 1683844373808
+url: "{{ _.local_url }}/billing/details/192e6c32-90e2-4813-8e2d-01c2d6ff61f9"
+name: /:id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"billingId": "a070442e-74db-4652-9707-a090d35a2be0",
+    	"amount": 0.50,
+    	"description": "ach transaction"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681656340655.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

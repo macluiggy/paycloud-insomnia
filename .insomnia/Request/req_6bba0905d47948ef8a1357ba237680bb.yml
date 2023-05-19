@@ -1,0 +1,31 @@
+_id: req_6bba0905d47948ef8a1357ba237680bb
+type: Request
+parentId: fld_73df2ed1f18f47b287fa658b11b53b43
+modified: 1681506743218
+created: 1681506743218
+url: "{{local_url}}/payees/email_confirmation"
+name: Confirm Email Address Payee
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: token
+      disabled: false
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXllZUlkIjoiNmM1MTFlZjEtYTIxNC00NmNiLTkxOGItMTgzNjgyMWFjYzZhIiwiaWF0IjoxNjY4MjA0NjM2fQ.YJiXw564Ii7ceUd6FQegwmcopHa2DVdPZtkvkauMwcY
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743218
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

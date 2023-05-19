@@ -1,0 +1,37 @@
+_id: req_9659638b3ff04ed08bc270dfd306d19a
+type: Request
+parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
+modified: 1682693122563
+created: 1682446748330
+url: "{{ _.local_url }}/subscriptions/plan/feature"
+name: /feature
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_6b205181358f4ba1b55673ccc850cffd
+    name: size
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_5bdc082deb664bfb98e06bf2308646aa
+    name: page
+    value: "2"
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479465.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

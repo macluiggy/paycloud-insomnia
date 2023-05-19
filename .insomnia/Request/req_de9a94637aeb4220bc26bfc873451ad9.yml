@@ -1,0 +1,32 @@
+_id: req_de9a94637aeb4220bc26bfc873451ad9
+type: Request
+parentId: fld_b41164283d6b43aaaffbccc9b6b2d1ff
+modified: 1681933938981
+created: 1681506743172
+url: "{{local_url}}/design/studio/emails/4570cc92-b81b-41b8-9404-9aa1067dfa52/test"
+name: Send Test Email Template
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: emailTo
+      disabled: false
+      value: santiago.gomez@imagineapps.co
+      id: pair_faf523dd4567435cafcfdfe737a1d8e0
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

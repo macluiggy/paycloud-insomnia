@@ -1,0 +1,42 @@
+_id: req_544bd31e267c4a31b45dd84c961c3e53
+type: Request
+parentId: fld_c132c82a1f9446edb5a823d40aea68f6
+modified: 1682622622551
+created: 1681506743460
+url: "{{local_url}}/data/sources/789"
+name: Update Data Source
+description: |-
+  This endpoint update an existing data source using its id
+
+  ### Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | name | String | No |
+  | sourceType | String(API, FLAT_FILE, SQL) | No |
+  | dataGroupId | Integer | No |
+  | primarySource | Integer | No |
+method: PATCH
+body:
+  params:
+    - type: text
+      name: name
+      disabled: false
+      value: Data Source Updated
+      id: pair_faceba8035e14c9a8a0b0ba5151a252c
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743460
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

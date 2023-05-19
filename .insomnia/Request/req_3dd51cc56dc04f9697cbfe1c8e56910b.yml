@@ -1,0 +1,43 @@
+_id: req_3dd51cc56dc04f9697cbfe1c8e56910b
+type: Request
+parentId: fld_5d9db9603ce24175a66f418584c57b13
+modified: 1683670978825
+created: 1683653124145
+url: "{{local_url}}/batches/manual-import"
+name: Manual Import
+description: >-
+  This endpoint allows you to extract a data from the file with the rules of the
+  data source id.
+
+
+  Request
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | dataSourceId | Integer | Yes |
+
+  | file | File | Yes |
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743222.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

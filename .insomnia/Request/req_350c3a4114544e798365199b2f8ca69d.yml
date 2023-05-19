@@ -1,0 +1,25 @@
+_id: req_350c3a4114544e798365199b2f8ca69d
+type: Request
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1681930642447
+created: 1681506743225
+url: "{{local_url}}/transactions"
+name: All Transactions
+description: This endpoint fetches all the transactions that created
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

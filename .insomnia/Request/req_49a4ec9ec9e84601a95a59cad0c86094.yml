@@ -1,0 +1,37 @@
+_id: req_49a4ec9ec9e84601a95a59cad0c86094
+type: Request
+parentId: fld_b48b17e04e044175bd250d2e9b73b270
+modified: 1681955208894
+created: 1681506743165
+url: "{{local_url}}/design/studio/documents/c9f0faf4-02fb-4392-834b-c811aca93b08"
+name: Delete Document Template
+description: ""
+method: DELETE
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: additionalPage
+      disabled: false
+      value: "1"
+      id: pair_2af72b090f824409a8d0b3e863557fb6
+    - type: text
+      name: name
+      disabled: false
+      value: Document Updated
+      id: pair_908a6ec6b3c94c188f074078bced97db
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_8cb8cbf594114e16aa1b88b02f334a4b
+type: Request
+parentId: fld_5616f436358b4c55b89b4df285006b9a
+modified: 1681506743216
+created: 1681506743216
+url: "{{local_url}}/bank/account/65b09682-3b3b-47f6-b5d6-eb21a960c006/transacti\
+  ons/export"
+name: Export Transactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

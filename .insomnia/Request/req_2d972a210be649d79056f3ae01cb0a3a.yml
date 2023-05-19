@@ -1,0 +1,37 @@
+_id: req_2d972a210be649d79056f3ae01cb0a3a
+type: Request
+parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
+modified: 1681506743248
+created: 1681506743248
+url: "{{local_url}}/transactions/sign"
+name: Sign Transactions
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"transactionId\": \"ca70c239-05b2-4951-95f8-73c75ec9ad6c\"\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743248
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

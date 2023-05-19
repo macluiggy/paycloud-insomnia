@@ -1,0 +1,25 @@
+_id: req_39ff4365942d4414896589f8700c63d5
+type: Request
+parentId: fld_ea4ccd0a07fc4cd8b4225b2f162ca2ca
+modified: 1682008051348
+created: 1681506743192
+url: "{{local_url}}/bank/account/signatures/f4a3725d-71d6-495d-ae2e-ef434d0ffcfe"
+name: Delete Signature
+description: This endpoint allows you to delete an existing signature using its **id**
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743192
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

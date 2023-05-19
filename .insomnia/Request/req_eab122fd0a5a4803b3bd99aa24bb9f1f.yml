@@ -1,0 +1,78 @@
+_id: req_eab122fd0a5a4803b3bd99aa24bb9f1f
+type: Request
+parentId: fld_7189b8a05f4a4e29b455d29b5d3d0ecc
+modified: 1682707570655
+created: 1681506743350
+url: "{{local_url}}/data/mapping"
+name: Update Column Mapping
+description: |-
+  This endpoint allows you to update a column mapping using its id.
+
+  Request
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | columnIndex | Integer | No |
+  | columnName | String | No |
+  | payCloudColumn | String | No |
+  | dataSourceId | Integer | No |
+method: PATCH
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    {\r
+
+    \        \"dataSourceId\": 9,\r
+
+    \        \"idColumnMapping\": 80,\r
+
+    \        \"columnName\": \"date\",\r
+
+    \        \"payCloudColumn\": \"date\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \        \"dataSourceId\": 9,\r
+
+    \        \"idColumnMapping\": 81,\r
+
+    \        \"columnName\": \"amount\",\r
+
+    \        \"payCloudColumn\": \"amount\"\r
+
+    \    },\r
+
+    \     {\r
+
+    \        \"dataSourceId\": 9,\r
+
+    \        \"idColumnMapping\": 79,\r
+
+    \        \"columnName\": \"transaction_number_grouped\",\r
+
+    \        \"payCloudColumn\": \"accountNumber\"\r
+
+    \    }\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7c84c51884d14a44a01f1e141ef564fe
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743350
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

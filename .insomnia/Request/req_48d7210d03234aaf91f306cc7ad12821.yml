@@ -1,0 +1,100 @@
+_id: req_48d7210d03234aaf91f306cc7ad12821
+type: Request
+parentId: fld_ff9b3039c35445c2bdb0d7266f576572
+modified: 1681506743421
+created: 1681506743421
+url: "{{local_url}}/data/files"
+name: Create File Source
+description: |-
+  This endpoint allows you to create a file source.
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | fileType | String( STANDARD, CUSTOM_FILE ) | Yes |
+  | dataSourceId | Integer | Yes |
+  | columnSeparator | String | Yes |
+  | ftpAddressIp | String | Yes |
+  | ftpPort | Integer | Yes |
+  | ftpUser | String | Yes |
+  | ftpPassword | String | Yes |
+  | localAddress | String | Yes |
+  | structure | String | No |
+  | firstRowToImport | String | No |
+  | columnHeaderIndicator | String | No |
+  | valueHeaderIndicator | String | No |
+  | relationshipHeaderDetails | String | No |
+method: POST
+body:
+  params:
+    - type: text
+      name: fileType
+      disabled: false
+      value: CUSTOM_FILE
+    - type: text
+      name: dataSourceId
+      disabled: false
+      value: cde2cb47-6483-4450-82f0-b02c3b156c66
+    - type: text
+      name: columnSeparator
+      disabled: false
+      value: ","
+    - type: text
+      name: ftpAddressIp
+      disabled: false
+      value: 18.118.51.102
+    - type: text
+      name: ftpPort
+      disabled: false
+      value: "21"
+    - type: text
+      name: ftpUser
+      disabled: false
+      value: developftp
+    - type: text
+      name: ftpPassword
+      disabled: false
+      value: imagineapps2021*
+    - type: text
+      name: fileAddress
+      disabled: false
+      value: files/uploads/Printech Custom File.csv
+    - type: text
+      name: locationFile
+      disabled: false
+      value: FTP_SERVER
+    - type: text
+      name: structure
+      disabled: false
+      value: HEADER_DETAILS
+    - type: text
+      name: firstRowToImport
+      disabled: false
+      value: "6"
+    - type: text
+      name: columnHeaderIndicator
+      disabled: false
+      value: "0"
+    - type: text
+      name: valueHeaderIndicator
+      disabled: false
+      value: "1"
+    - type: text
+      name: relationshipHeaderDetails
+      disabled: false
+      value: CONTINUOUS_ROW
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

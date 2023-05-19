@@ -1,0 +1,25 @@
+_id: req_7e08d8daabd54dfe846e489ad9e81deb
+type: Request
+parentId: fld_df69605992064d90bed5b1d2c6ac6cc0
+modified: 1681506743308
+created: 1681506743308
+url: "{{local_url}}/companies/3535eab7-6204-49f4-809b-70e411cb3cc8"
+name: Delete Company
+description: This endpoint allows you to delete an existing company using its **id**
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743308
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,55 @@
+_id: req_73688ac186264fe9b39b652b3a1afacd
+type: Request
+parentId: fld_df2bd2c7046c48e495f43d265c1b47f8
+modified: 1681506743397
+created: 1681506743397
+url: "{{local_url}}/data/api"
+name: Create Api Source
+description: ""
+method: POST
+body:
+  params:
+    - type: default
+      name: dataSourceId
+      disabled: false
+      value: ea8f6a88-6b47-4204-85d7-be4687654788
+    - type: default
+      name: apiType
+      disabled: false
+      value: QUICKBOOKS
+    - type: default
+      name: token
+      disabled: false
+      value: eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..AgUKRcEyXv0um_wrH9QG0g.WVmELAFPnsHIzSNExdyOfxTtm_BkJqhc4NsBAGlE3NmXSaGL9tFvdQIj4ETa2tO8Fw35-j2FyxrDndCW5UCmIiWQ4QBVTishkNwhoxP71jBOhWjge7lIfzOFCmu8jDjUsmCOknHgIXNfAvV_7whYx
+    - type: default
+      name: consumerKey
+      disabled: false
+      value: AByvua4tXraUIxv6RlTzzY701R
+    - type: default
+      name: consumerSecretKey
+      disabled: false
+      value: Tjg80qZ4zOtWyC977bC6Jy
+    - type: default
+      name: realmId
+      disabled: false
+      value: "462081070"
+    - type: default
+      name: refreshToken
+      disabled: false
+      value: AB11650223164zMR16U5hsG
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

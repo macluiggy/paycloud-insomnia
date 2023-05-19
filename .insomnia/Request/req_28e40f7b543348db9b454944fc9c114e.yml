@@ -1,0 +1,31 @@
+_id: req_28e40f7b543348db9b454944fc9c114e
+type: Request
+parentId: fld_495bae72fe7d4d339eecca06523cb4a8
+modified: 1681506743158
+created: 1681506743158
+url: "{{local_url}}/output/retry/email"
+name: Retry To Send Email
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: transactionId
+      disabled: false
+      value: 66125643-d747-441e-a47d-55a3ac824297
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

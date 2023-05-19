@@ -1,0 +1,30 @@
+_id: req_28dd414e02ef4030b86554d0600f1447
+type: Request
+parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
+modified: 1684271482861
+created: 1681506743280
+url: "{{local_url}}/users"
+name: All Users
+description: This endpoint fetches all the users.
+method: GET
+body: {}
+parameters:
+  - id: pair_b2560f99e01d420eac92e58fd968fc31
+    name: groups
+    value: "true"
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743280
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

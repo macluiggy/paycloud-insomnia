@@ -1,0 +1,25 @@
+_id: req_b610e8614cd54751b912dba67f6bb8d2
+type: Request
+parentId: fld_65a96229417449cda74ba8f20c5afadf
+modified: 1682006969082
+created: 1681506743194
+url: "{{local_url}}/bank/account/approvals/405ab6b7-df5c-406a-8a57-57a810c075da"
+name: Delete Approval
+description: This endpoint allows you to delete an existing approval using its **id**
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_fe2b63a367cc419f8998ec50cc62ce38
+type: Request
+parentId: fld_946d06b1076c411588b026c0c009043d
+modified: 1681506743504
+created: 1681506743504
+url: "{{local_url}}/data/groups/07600037-6a62-40f1-add6-a05f4ea5e8b9/import/retry"
+name: Retry Automatic Import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzZWVjNGJmMC1mYzNlLTQ5OWQtYWU1MS1iODQyZjBmYjM2NTIiLCJjb21wYW55IjoiMTE5MGZjZWQtYjlkYy00ZmNiLThlYWQtMDM2NzE1NTQzZThmIiwiaWF0IjoxNjQ5NDY3OTA5LCJleHAiOjE2NDk1NTQzMDl9.BM9fRG7DMY_ZGeBKy-k5AzOTinyI2sCgI3CIafc_f2w
+  prefix: ""
+metaSortKey: -1681506743504
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

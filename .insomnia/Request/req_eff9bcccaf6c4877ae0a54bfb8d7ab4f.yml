@@ -1,0 +1,69 @@
+_id: req_eff9bcccaf6c4877ae0a54bfb8d7ab4f
+type: Request
+parentId: fld_65a96229417449cda74ba8f20c5afadf
+modified: 1682006956382
+created: 1681506743195
+url: "{{local_url}}/bank/account/approvals/9e212382-8da7-4a3f-bf05-ef2645cff3be"
+name: Update Approval
+description: |-
+  This endpoint allows you to update an approval using its **id.**
+
+  The endpoint allows you to edit the following fields
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | No |
+  | approvalName | String | No |
+  | minLimit | Decimal(10,2) | No |
+  | maxLimit | Decimal(10,2) | No |
+  | configureApprovalFlow | Boolean | No |
+  | autoApprove | Boolean | No |
+  | autoReject | Boolean | No |
+  | approval_users | Array | No |
+  | approval_groups | Array | No |
+
+  ### Approval_users
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | userId | Integer | Yes |
+
+  ### Approval_groups
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | groupId | Integer | Yes |
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "bankAccountId": "ff00c905-e2b8-4d27-a4af-6512cd1fcb62",
+        "approvalName": "no borrar",
+        "minLimit": 140,
+        "maxLimit": 300,
+        "configureApprovalFlow": true,
+        "approval_users": [
+                {
+                    "userId": "0f148eaf-4deb-4e55-adc8-4f0c6bcca36d"
+                }
+            ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ba72f6debedc492eb3a0596046406b6e
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

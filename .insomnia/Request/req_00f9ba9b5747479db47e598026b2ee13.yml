@@ -1,0 +1,68 @@
+_id: req_00f9ba9b5747479db47e598026b2ee13
+type: Request
+parentId: fld_c9dc539469494d8f89a59cc4a63d7eb9
+modified: 1682707494650
+created: 1681506743361
+url: "{{local_url}}/data/mapping/filters"
+name: Update Column Filters
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "[\r
+
+    \t{\r
+
+    \        \"idColumnFilter\": \"03d8476c-0dd5-4800-8403-f429fc12e3b8\",\r
+
+    \t\t\"columnMappingId\": \"5cf60229-5469-4158-8213-b725969e1c11\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": \"1010058214\",\r
+
+    \t\t\"then\": \"REPLACE_COLUMN\",\r
+
+    \        \"newInput\": \"4\",\r
+
+    \        \"newValue\": \"REAL ESTATE TRUST ACCOUNT IOTA\"\r
+
+    \t},\r
+
+    \    {\r
+
+    \        \"idColumnFilter\": \"12e8a07f-d912-40b0-bc56-4aedd9121821\",\r
+
+    \t\t\"columnMappingId\": \"5cf60229-5469-4158-8213-b725969e1c11\",\r
+
+    \t\t\"operator\": \"EQUALS\",\r
+
+    \t\t\"value\": \"1016023602\",\r
+
+    \t\t\"then\": \"REPLACE_COLUMN\",\r
+
+    \        \"newInput\": \"4\",\r
+
+    \        \"newValue\": \"OPERATING\"\r
+
+    \t}\r
+
+    ]\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69d86412cb404119a2f8e76e49ae5634
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

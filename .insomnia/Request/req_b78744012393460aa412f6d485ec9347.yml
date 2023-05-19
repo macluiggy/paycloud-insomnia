@@ -1,0 +1,31 @@
+_id: req_b78744012393460aa412f6d485ec9347
+type: Request
+parentId: fld_c802a33fe8c645cb992f4904e64fe0c6
+modified: 1681506743145
+created: 1681506743145
+url: "{{local_url}}/test-workflow"
+name: Create Test Workflow
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: bankAccountId
+      disabled: false
+      value: 4c807a21-4d9d-4ec1-b838-810ee57b553b
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

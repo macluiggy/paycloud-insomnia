@@ -1,0 +1,10 @@
+_id: fld_b41164283d6b43aaaffbccc9b6b2d1ff
+type: RequestGroup
+parentId: fld_ec61e6b3823e456881c90a0f00d542b2
+modified: 1681506743173
+created: 1681506743173
+name: Send Email Test
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1681506743173

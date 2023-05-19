@@ -1,0 +1,32 @@
+_id: req_0f0ea0c12a234cd3ab654af47b1ace8a
+type: Request
+parentId: fld_ead5a1a9ec3d49f7a4e2992b51086419
+modified: 1683844370147
+created: 1683844202339
+url: "{{ _.local_url }}/billing/details/03612429-5579-4abb-8eb7-f0ef2272b8a9"
+name: /:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"billingId": "a070442e-74db-4652-9707-a090d35a2be0",
+    	"amount": 0.50,
+    	"description": "ach transaction"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681801668110.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

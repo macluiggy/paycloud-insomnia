@@ -1,0 +1,25 @@
+_id: req_7a291c4e50ef4ac7bf6769aee2255385
+type: Request
+parentId: fld_1cad430a01594320bbeb9abf0c8a0248
+modified: 1681506743140
+created: 1681506743140
+url: "{{local_url}}/error/logs/download"
+name: Get Error Logs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743140
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

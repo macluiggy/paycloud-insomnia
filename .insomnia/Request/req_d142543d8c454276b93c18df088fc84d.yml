@@ -1,0 +1,36 @@
+_id: req_d142543d8c454276b93c18df088fc84d
+type: Request
+parentId: fld_6907f15c02e249b68584a63f5746338b
+modified: 1682610653594
+created: 1681506743142
+url: "{{local_url}}/alerts"
+name: Update Alerts
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "[\r
+
+    \    \"109ea324-c03e-4e78-a177-e352abf2c7db\",\r
+
+    \    \"ee74755b-5fda-4ca8-91a9-d4584057e7bf\"\r
+
+    ]"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a5c79271a8d84b0a89a9c434bd417cb1
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743142
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

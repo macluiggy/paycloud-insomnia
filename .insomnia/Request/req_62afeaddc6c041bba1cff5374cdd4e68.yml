@@ -1,0 +1,25 @@
+_id: req_62afeaddc6c041bba1cff5374cdd4e68
+type: Request
+parentId: fld_adae1b3f5b8b4613b9b2657af7cae670
+modified: 1681506743442
+created: 1681506743442
+url: "{{local_url}}/data/sql"
+name: All Sql Sources
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743442
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

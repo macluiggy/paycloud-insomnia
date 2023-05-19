@@ -1,0 +1,46 @@
+_id: req_602232365efc48c19ec1e00fd46dd243
+type: Request
+parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
+modified: 1682354492758
+created: 1682354336056
+url: "{{ _.local_url }}/subscriptions/plan/c0d18110-5f7f-47a3-9be5-d40433aebe4f"
+name: /:id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"subscriptionId": "642dc286-9f5f-43e1-9d09-6799609a578f",
+    	"companyId": "ed5b05ed-27c9-4840-b938-1f6b04cafa5b",
+    	"validTo": "2023-08-01T00:00:00.000Z",
+    	"amount": "230"
+    }
+parameters:
+  - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
+    name: name
+    value: r
+    description: ""
+  - id: pair_6b205181358f4ba1b55673ccc850cffd
+    name: size
+    value: "1"
+    description: ""
+  - id: pair_5bdc082deb664bfb98e06bf2308646aa
+    name: page
+    value: "2"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681510479445.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

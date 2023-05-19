@@ -1,0 +1,118 @@
+_id: req_af4198125d7e4c47825bca579c0c4d0a
+type: Request
+parentId: fld_75f9bace7cef493a9e8a8d292adb4b43
+modified: 1682433906702
+created: 1681511669258
+url: "{{ _.local_url }}/notification/company/a50d9b80-c960-46d0-85e3-9637648004e2"
+name: /company
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"restrictions": {
+    		"notificationCompanyPreferences": [
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "bankNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "bankAccountNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "payeeNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "groupPermissionsNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "dataGroupNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "batchNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "transactionNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "templateNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "paymentWorkflowNotifications",
+    				"enabled": true
+    			},
+    			{
+    				"cc": [
+    					"ferrinluiggy@gmail.com",
+    					"luiggy@yopmail.com"
+    				],
+    				"name": "outputNotifications",
+    				"enabled": true
+    			}
+    		]
+    	},
+    	"types": [
+    		"email",
+    		"alert"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e9b981be343482aa4a617e81f299a1d
+authentication:
+  type: bearer
+  token: "{{ _.JWT_TOKEN }}"
+metaSortKey: -1681508878365.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_c1a16c95e4524dafa0e4530b722c96ee
+type: Request
+parentId: fld_9c34382ec75341fa9b7c4e920cdd6dad
+modified: 1681506743173
+created: 1681506743173
+url: "{{local_url}}/design/studio/emails/4570cc92-b81b-41b8-9404-9aa1067dfa52/c\
+  hange-password"
+name: Changes Password Protection
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: oldPassword
+      disabled: false
+      value: helloWorld
+    - type: text
+      name: newPassword
+      disabled: false
+      value: HelloFellow
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743173
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

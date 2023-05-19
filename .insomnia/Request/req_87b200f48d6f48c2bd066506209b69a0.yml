@@ -1,0 +1,28 @@
+_id: req_87b200f48d6f48c2bd066506209b69a0
+type: Request
+parentId: fld_44260ac47b074aa7a181dc929f10d60b
+modified: 1683314476741
+created: 1681506743186
+url: "{{local_url}}/bank/account/ach-eft-destination/11e4e85e-b685-4c2f-9d84-d9\
+  b877c9c12d"
+name: Single ACH/EFT Destination
+description: This endpoint fetches the positive pay data using its **id**
+method: GET
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

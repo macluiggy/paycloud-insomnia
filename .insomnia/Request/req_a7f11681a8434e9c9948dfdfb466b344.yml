@@ -1,0 +1,72 @@
+_id: req_a7f11681a8434e9c9948dfdfb466b344
+type: Request
+parentId: fld_ea4ccd0a07fc4cd8b4225b2f162ca2ca
+modified: 1683581481007
+created: 1681506743193
+url: "{{local_url}}/bank/account/signatures"
+name: Create Signatures
+description: |-
+  This endpoint allows you to create signatures of the bank account.
+
+  ### **Request**
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | bankAccountId | Integer | Yes |
+  | signatureName | String | Yes |
+  | minLimit | Decimal(10,2) | Yes |
+  | maxLimit | Decimal(10,2) | Yes |
+  | configureSignatureFlow | Boolean | Yes, if autoSignature is false |
+  | autoSignature | Boolean | Yes, if configureSignatureFlow is false |
+  | autoReject | Boolean | No |
+  | signature_users | Array | Yes, if configureSignatureFlow is true |
+  | signature_groups | Array | No, if signature_users exist |
+
+  ### Signature_users
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | userId | Integer | Yes |
+
+  ### Signature_groups
+
+  | **Field** | **Type** | **Required** |
+  | --- | --- | --- |
+  | groupId | Integer | Yes |
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    [
+        {
+            "signatureName": "mi firma",
+            "minLimit": 1,
+            "maxLimit": 1000,
+            "bankAccountId": "a95c4edd-32f0-4234-92bf-befe12bab3cb",
+            "paymentType": "Check",
+            "configureSignatureFlow": true,
+            "signature_users": [
+                {
+                    "userId": "0f148eaf-4deb-4e55-adc8-4f0c6bcca36d"
+                }
+            ]
+        }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a28578151fa44c43aa51c529745fd939
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
