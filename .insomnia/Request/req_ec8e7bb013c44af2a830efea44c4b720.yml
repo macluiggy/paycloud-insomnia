@@ -1,7 +1,7 @@
 _id: req_ec8e7bb013c44af2a830efea44c4b720
 type: Request
 parentId: fld_072844a01644457097c9253d70c237d5
-modified: 1684422118249
+modified: 1685159896918
 created: 1682350054067
 url: "{{ _.local_url }}/subscriptions/"
 name: /
@@ -11,9 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"planId": "c7a8e216-8fd7-44dd-b1aa-3082f8795888",
+    	"planId": "3702e568-f5a3-4e68-85b0-ce3b15617348",
     	"companyId": "ea54736f-7bf6-4289-b640-15235f684d42",
-    	"billingInterval": "Monthly"
+    	"billingInterval": "Monthly",
+    	"paymentMethodId": "pm_1NCEGdFjTck1vBSzMNY9N0X7"
     }
 parameters:
   - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58

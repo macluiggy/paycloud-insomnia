@@ -1,0 +1,35 @@
+_id: req_c54116c5be69408fa8fe1afa4fc726ab
+type: Request
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1684870665187
+created: 1684770299112
+url: "{{local_url}}/transactions/verify-e-check/e9a1f2ae-202a-4af4-b457-138d756\
+  6bb3f"
+name: /verify-echeck/:id
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_306c93ebadd74a69b52528dc51b2a6f1
+    name: type
+    value: E-Check
+    description: aaa
+    disabled: false
+  - id: pair_a1817e98bd224d02b884ae3a88f278d9
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  disabled: true
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743224.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

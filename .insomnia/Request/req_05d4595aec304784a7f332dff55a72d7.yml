@@ -1,7 +1,7 @@
 _id: req_05d4595aec304784a7f332dff55a72d7
 type: Request
 parentId: fld_73df2ed1f18f47b287fa658b11b53b43
-modified: 1681916731621
+modified: 1684864880235
 created: 1681506743221
 url: "{{local_url}}/payees"
 name: Create Payees
@@ -9,49 +9,19 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "[\r
-
-    \t{\r
-
-    \t\t\"name\": \"test 1\",\r
-
-    \t\t\"addressLine1\": \"line 1\",\r
-
-    \t\t\"country\": \"Colombia\",\r
-
-    \t\t\"city\": \"Bogota\",\r
-
-    \t\t\"state\": \"Bogota\",\r
-
-    \t\t\"email\": \"test1@gmail.com\",\r
-
-    \t\t\"payeeAccountNumber\": \"1234567891\",\r
-
-    \t\t\"payeeRoutingNumber\": \"123456789\"\r
-
-    \t},\r
-
-    \t{\r
-
-    \t\t\"name\": \"test 2\",\r
-
-    \t\t\"addressLine1\": \"line 1\",\r
-
-    \t\t\"country\": \"Colombia\",\r
-
-    \t\t\"city\": \"Bogota\",\r
-
-    \t\t\"state\": \"Bogota\",\r
-
-    \t\t\"email\": \"test2@gmail.com\",\r
-
-    \t\t\"payeeAccountNumber\": \"1234567891\",\r
-
-    \t\t\"payeeRoutingNumber\": \"123456789\"\r
-
-    \t}\r
-
-    ]"
+  text: |-
+    [
+    	{
+    		"name": "test 1",
+    		"addressLine1": "line 1",
+    		"country": "Colombia",
+    		"city": "Bogota",
+    		"state": "Bogota",
+    		"email": "test1@gmail.com",
+    		"payeeAccountNumber": "1234567891",
+    		"payeeRoutingNumber": "123456789"
+    	}
+    ]
 parameters: []
 headers:
   - name: Content-Type

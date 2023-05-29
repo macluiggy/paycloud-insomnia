@@ -1,7 +1,7 @@
 _id: req_7d4c841df69242c58b813bfaf42f79f3
 type: Request
 parentId: fld_5616f436358b4c55b89b4df285006b9a
-modified: 1684435292205
+modified: 1684941272060
 created: 1681506743217
 url: "{{local_url}}/bank/account"
 name: Create Bank Account
@@ -28,38 +28,38 @@ body:
   mimeType: ""
   text: |-
     {
-        "accountCode": "123456",
-        "accountNumber": "12345678",
-        "accountName": "do not erase ach/eft",
-        "routingNumber": "066004367",
-        "optionalCode": null,
-        "accountType": "Para ach y probar la limitaicon para este",
-        "bankId": "667b169d-1d5a-4b9e-80cb-ed7668120dc4",
-        "email": "luiggy@yopmail.com",
-        "currency": "USD",
-        "country": "United States",
-        "city": "Abbeville",
-        "state": "Alabama",
-        "countryCode": "USA",
-        "cityCode": "Ab0968",
-        "stateCode": "AL",
-        "addressLine1": "sosote",
-        "addressLine2": "12334",
-        "zipCode": null,
-        "reprintsAllowed": false,
-        "currencySymbol": "$",
-        "currencyNamePlural": "US dollars",
-        "dataGroupId": null,
-        "outputId": null,
-        "checkAllowed": false,
-        "achOrEftAllowed": true,
-        "transitFraction1": "1111",
-        "transitFraction2": "1111",
-        "transitFraction3": "1111",
-        "achOrEftApprovalEnabled": false,
-        "achOrEftDestinationEnabled": false,
-        "multipleSignatures": false,
-        "singleSignature": true
+    	"accountCode": "123456",
+    	"accountNumber": "12345678",
+    	"accountName": "do not erase ach/eft",
+    	"routingNumber": "066004367",
+    	"optionalCode": null,
+    	"accountType": "Para ach y probar la limitaicon para este",
+    	"bankId": "f888c6ee-311d-4827-a097-e58564ead219",
+    	"email": "luiggy@yopmail.com",
+    	"currency": "USD",
+    	"country": "United States",
+    	"city": "Abbeville",
+    	"state": "Alabama",
+    	"countryCode": "USA",
+    	"cityCode": "Ab0968",
+    	"stateCode": "AL",
+    	"addressLine1": "sosote",
+    	"addressLine2": "12334",
+    	"zipCode": null,
+    	"reprintsAllowed": false,
+    	"currencySymbol": "$",
+    	"currencyNamePlural": "US dollars",
+    	"dataGroupId": null,
+    	"outputId": null,
+    	"checkAllowed": false,
+    	"achOrEftAllowed": true,
+    	"transitFraction1": "1111",
+    	"transitFraction2": "1111",
+    	"transitFraction3": "1111",
+    	"achOrEftApprovalEnabled": false,
+    	"achOrEftDestinationEnabled": false,
+    	"multipleSignatures": false,
+    	"singleSignature": true
     }
 parameters: []
 headers:

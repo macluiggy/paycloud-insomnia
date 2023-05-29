@@ -1,0 +1,159 @@
+_id: req_1038d37f4c9b4c18acc5b79b25eea6a1
+type: Request
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1684852374359
+created: 1684773903103
+url: "{{local_url}}/transactions"
+name: / (with multipart)
+description: >-
+  This endpoint allows you to create transactions with the transactions details
+  of it and the payee transaction is optional.
+
+
+  ## **Request**
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | type | String(Electronic Payment, Checks) | Yes |
+
+  | batchId | Integer | Yes |
+
+  | bankAccountId | Integer | Yes |
+
+  | amount | Decimal(20,2) | Yes |
+
+  | payeeId | Integer | No  <br>if the payee exist it's required. |
+
+  | date | Date | Yes |
+
+  | binNumber | String | No |
+
+  | swiftNumber | String | No |
+
+  | transaction_payee | Object | No |
+
+  | transaction_detail | Array | No |
+
+
+  #### A transactions always has a tansaction_detail with the following fields.
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | amount | Decimal(20,2) | Yes |
+
+  | description | String | Yes |
+
+  | date | Date | Yes |
+
+
+  **If you need create a new payee, you have to include the following fields in the object transactions_payee**
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | name | String | Yes |
+
+  | phone | Integer | No |
+
+  | email | String | Yes |
+
+  | addressLine1 | String | Yes |
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: batchId
+      value: 715e1800-50ce-4b1c-a396-7f24ab484f08
+      id: pair_74060d4bcb2d408ba36861bac0db1bd1
+      disabled: false
+    - id: pair_80bdb0a04852496b80d39d4efe0217a8
+      name: bankAccountId
+      value: 7aa4905f-677b-495d-aafe-597a603639b3
+      description: ""
+    - id: pair_6c53112984f54f41be35a496e09076e8
+      name: type
+      value: E-Check
+      description: ""
+      disabled: false
+    - id: pair_afcfae56bac041eab0ea8a4a213f7ee2
+      name: amount
+      value: "10"
+      description: ""
+    - id: pair_839709dc6f2145c48efb80405eac39a5
+      name: date
+      value: 2023-05-09T05:00:00.000Z
+      description: ""
+    - id: pair_e1bd08c5b1d84c0b931652fb5c59404f
+      name: currencySymbol
+      value: $
+      description: ""
+    - id: pair_f5137975806f4754880c06cda14d4d25
+      name: transaction_payee
+      value: |-
+        [
+        	{
+        		"name": "luiggy",
+        		"email": "luiggy.macias@imagineapps.co"
+        	}
+        ]
+      description: ""
+      type: text
+      multiline: application/json
+      disabled: true
+    - id: pair_d634ec7d1ba847fba2a8551ea56211da
+      name: transaction_detail
+      value: "[]"
+      description: ""
+      disabled: false
+    - id: pair_402968b80b5b4a2a81bbf1820d5c557f
+      name: invoiceFile
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/luiggy/Documents/PROGRAMMING/BITEKSO/api-base/services/generacion_pdf/components/assets/pdfs/reporte_avaluo_predio.pdf
+      disabled: false
+    - id: pair_489def641e7b4770907e2367937bd07d
+      name: ddd
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/luiggy/api_core_daule_gis_catastro_predio.sql
+      disabled: true
+    - id: pair_6c4108d83ec84356b06688307572bed0
+      name: transaction_payee
+      value: |-
+        [
+        	{
+        		"name": "Roberto",
+        		"email": "roberto.cuellar@imagineapps.co"
+        	}
+        ]
+      description: ""
+      type: text
+      multiline: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_20fdb87081044894832034bb2b5f1b7f
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743225.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

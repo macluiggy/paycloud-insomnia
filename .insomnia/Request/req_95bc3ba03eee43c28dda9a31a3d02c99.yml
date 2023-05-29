@@ -1,10 +1,10 @@
-_id: req_d855ece81a7e4e7594faad122408cbef
+_id: req_95bc3ba03eee43c28dda9a31a3d02c99
 type: Request
 parentId: fld_539fad701a684cdcb4d901da8a21cc8c
-modified: 1684765596911
-created: 1681506743225
-url: "{{local_url}}/transactions/4f25a1cd-a545-4a3e-8c77-1c5c385d51a6"
-name: Single Transaction
+modified: 1684806782199
+created: 1684806714980
+url: https://api.openai.com/v1/models
+name: openai
 description: ""
 method: GET
 body: {}
@@ -13,9 +13,9 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: "{{JWT_TOKEN}}"
+  token: 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
   prefix: ""
-metaSortKey: -1681506743225
+metaSortKey: -1681506743224.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

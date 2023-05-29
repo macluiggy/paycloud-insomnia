@@ -1,7 +1,7 @@
 _id: req_c2b59ad3e2d84a2686c5f50f4ad8a5a9
 type: Request
 parentId: fld_65a96229417449cda74ba8f20c5afadf
-modified: 1683581317919
+modified: 1685232861406
 created: 1681506743197
 url: "{{local_url}}/bank/account/approvals"
 name: Create Approvals
@@ -38,22 +38,19 @@ body:
   mimeType: ""
   text: |-
     [
-        {
-            "approvalName": "aaa",
-            "minLimit": 123,
-            "maxLimit": 3211,
-            "paymentType": "Check",
-            "bankAccountId": "a95c4edd-32f0-4234-92bf-befe12bab3cb",
-            "configureApprovalFlow": true,
-            "approval_users": [
-                {
-                    "userId": "6c197e6a-27cc-47bf-be9a-cf24a0725ae6"
-                },
-                {
-                    "userId": "0f148eaf-4deb-4e55-adc8-4f0c6bcca36d"
-                }
-            ]
-        }
+    	{
+    		"approvalName": "aaa",
+    		"minLimit": 1,
+    		"maxLimit": 3211,
+    		"paymentType": "Check",
+    		"bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
+    		"configureApprovalFlow": true,
+    		"approval_users": [
+    			{
+    				"userId": "d775b65b-aeb6-44d9-b075-c03219af4158"
+    			}
+    		]
+    	}
     ]
 parameters: []
 headers:

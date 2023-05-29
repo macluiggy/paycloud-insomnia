@@ -1,7 +1,7 @@
 _id: req_d06ef0dfaf1f449a90eeec5913c65d5f
 type: Request
 parentId: fld_ec61e6b3823e456881c90a0f00d542b2
-modified: 1681956173280
+modified: 1684509242798
 created: 1681506743171
 url: "{{local_url}}/design/studio/emails"
 name: Create Email Template
@@ -15,7 +15,7 @@ body:
         "type": "Check",
     	"passwordProtected": true,
     	"passwordFile": "helloWorld",
-        "documentTemplateId": "ab0f75a8-2de9-4e68-a43f-dd076401956a",
+        "documentTemplateId": "afa27c84-53e4-407a-bb70-e1a85153c34d",
     	"emailText": "<p>Hello from Twilio SendGrid!</p><p>Sending with the email service trusted by developers and marketers for <strong>time-savings</strong>, <strong>scalability</strong>, and <strong>delivery expertise</strong>.</p><p>%open-track%</p>"
     }
 parameters: []

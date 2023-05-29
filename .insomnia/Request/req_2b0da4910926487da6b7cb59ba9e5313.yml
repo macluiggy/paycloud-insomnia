@@ -1,21 +1,38 @@
-_id: req_2f66197598ee42728502247b1286635d
+_id: req_2b0da4910926487da6b7cb59ba9e5313
 type: Request
 parentId: fld_73df2ed1f18f47b287fa658b11b53b43
-modified: 1684865036874
-created: 1681506743220
-url: "{{local_url}}/payees?sortByCreatedAt=DESC&sortByEmail=ASC&page=1"
-name: All Payees
+modified: 1684865018372
+created: 1684864913492
+url: "{{local_url}}/payees"
+name: /   dev
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    [
+    	{
+    		"name": "test 1",
+    		"addressLine1": "line 1",
+    		"country": "Colombia",
+    		"city": "Bogota",
+    		"state": "Bogota",
+    		"email": "luiggy.macias@imagineapps.co",
+    		"payeeAccountNumber": "1234567891",
+    		"payeeRoutingNumber": "123456789"
+    	}
+    ]
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fe17cc1830394e0da99eef4450ee92c8
 authentication:
   type: bearer
   disabled: false
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlZWVmN2EwNy1mYWU1LTQwNDYtYWMyMy1hYmY2OTg5OTM0MDEiLCJyb2xlIjoidXNlciIsImNvbXBhbnkiOiI0ZTlkZDBhNC0yYWNiLTRmNjgtYTA4Yi03MjgwZmI5YjlkMGYiLCJpYXQiOjE2ODQ4NTk4NjIsImV4cCI6MTY4NzQ1MTg2Mn0.8tBz0VShe0j2iLnraiuquOMyO1lprsVaBdtl_CrWSpQ
   prefix: ""
-metaSortKey: -1681506743220
+metaSortKey: -1681506743220.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

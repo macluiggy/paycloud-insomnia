@@ -1,20 +1,20 @@
-_id: req_0e6416b59afe43fcacca87677833456b
+_id: req_b4572076880343eaa82cd8ed37db02e7
 type: Request
-parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
-modified: 1685230871653
-created: 1681506743252
-url: "{{local_url}}/transactions/approve"
-name: Approve Transactions
+parentId: fld_539fad701a684cdcb4d901da8a21cc8c
+modified: 1685233932816
+created: 1685233911017
+url: "{{local_url}}/transactions/output"
+name: output
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
-    	"bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
+    	"bankAccountId": "fdf1b5af-da4b-46ee-8c5c-896dc8a6a500",
     	"transactions": [
     		{
-    			"transactionId": "261c1d09-9cc0-487f-b99a-5baed1c5cd22"
+    			"transactionId": "fae74d5d-b5dc-4f3d-9ddc-efa7c507c1e1"
     		}
     	]
     }
@@ -27,7 +27,7 @@ authentication:
   disabled: false
   token: "{{JWT_TOKEN}}"
   prefix: ""
-metaSortKey: -1681506743252
+metaSortKey: -1681506743223.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

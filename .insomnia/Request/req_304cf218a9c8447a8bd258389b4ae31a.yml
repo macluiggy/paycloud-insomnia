@@ -1,10 +1,10 @@
-_id: req_9830e9ebcb0a4dfd9ee6a25dc35501b0
+_id: req_304cf218a9c8447a8bd258389b4ae31a
 type: Request
 parentId: fld_539fad701a684cdcb4d901da8a21cc8c
-modified: 1685230681804
-created: 1681506743226
+modified: 1684870559821
+created: 1684859635874
 url: "{{local_url}}/transactions"
-name: / (with body)
+name: / (with payee id) dev
 description: >-
   This endpoint allows you to create transactions with the transactions details
   of it and the payee transaction is optional.
@@ -71,29 +71,14 @@ body:
   mimeType: ""
   text: |-
     {
-        "batchId": "715e1800-50ce-4b1c-a396-7f24ab484f08",
-        "bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
-        "type": "E-Check",
-        "amount": 10,
-        "date": "2023-05-27T05:00:00.000Z",
-        "currencySymbol": "$",
-        "transaction_detail": [],
-        "transaction_payee": [
-            {
-                "name": "payee name 1",
-                "email": "payee1@yopmail.com",
-                "addressLine1": "sssssss",
-                "country": "Ecuador",
-                "city": "Cantón San Fernando",
-                "state": "Azuay",
-                "zipCode": null,
-                "phone": "(593) 985-518903",
-                "payeeAccountNumber": "111111111",
-                "countryCode": "ECU",
-                "cityCode": "Ca1493",
-                "stateCode": "A"
-            }
-        ]
+      "batchId": "d295f1b0-db71-492e-82c8-887499bcab85",
+      "bankAccountId": "fdf1b5af-da4b-46ee-8c5c-896dc8a6a500",
+      "type": "E-Check",
+      "amount": 1000,
+      "date": "2023-05-18T05:00:00.000Z",
+      "currencySymbol": "$",
+      "transaction_detail": [],
+      "payeeId": "6d6f2ea9-f673-42bb-9602-17dec995febc"
     }
 parameters: []
 headers:
@@ -103,9 +88,9 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{JWT_TOKEN}}"
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlZWVmN2EwNy1mYWU1LTQwNDYtYWMyMy1hYmY2OTg5OTM0MDEiLCJyb2xlIjoidXNlciIsImNvbXBhbnkiOiI0ZTlkZDBhNC0yYWNiLTRmNjgtYTA4Yi03MjgwZmI5YjlkMGYiLCJpYXQiOjE2ODQ4NTk4NjIsImV4cCI6MTY4NzQ1MTg2Mn0.8tBz0VShe0j2iLnraiuquOMyO1lprsVaBdtl_CrWSpQ
   prefix: ""
-metaSortKey: -1681506743226
+metaSortKey: -1681506743225.8125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

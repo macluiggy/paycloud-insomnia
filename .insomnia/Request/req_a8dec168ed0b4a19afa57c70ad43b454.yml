@@ -1,7 +1,7 @@
 _id: req_a8dec168ed0b4a19afa57c70ad43b454
 type: Request
 parentId: fld_5d9db9603ce24175a66f418584c57b13
-modified: 1683656868566
+modified: 1684945213837
 created: 1681506743223
 url: "{{local_url}}/batches/manual-import"
 name: Manual Import
@@ -27,12 +27,12 @@ body:
     - type: text
       name: batchId
       disabled: false
-      value: cfbd5375-7f90-4d21-b966-be6580ed122c
+      value: e05a45ca-68ec-4558-a985-36d4f732bb8f
       id: pair_e8eb2769214b4f45a12a10ab9711f194
     - type: text
       name: bankAccountId
       disabled: false
-      value: a95c4edd-32f0-4234-92bf-befe12bab3cb
+      value: 7aa4905f-677b-495d-aafe-597a603639b3
       id: pair_c39b8858e5c44a78ba63242eb71075f2
     - id: pair_f235041e91874b1d899f508463b5a001
       name: flatFileToUpload

@@ -1,10 +1,10 @@
-_id: req_9830e9ebcb0a4dfd9ee6a25dc35501b0
+_id: req_c55b0f0cd0f9406a99026737a5eaed6e
 type: Request
 parentId: fld_539fad701a684cdcb4d901da8a21cc8c
-modified: 1685230681804
-created: 1681506743226
+modified: 1685236943414
+created: 1684793381124
 url: "{{local_url}}/transactions"
-name: / (with body)
+name: / (with payee id)
 description: >-
   This endpoint allows you to create transactions with the transactions details
   of it and the payee transaction is optional.
@@ -71,29 +71,14 @@ body:
   mimeType: ""
   text: |-
     {
-        "batchId": "715e1800-50ce-4b1c-a396-7f24ab484f08",
-        "bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
-        "type": "E-Check",
-        "amount": 10,
-        "date": "2023-05-27T05:00:00.000Z",
-        "currencySymbol": "$",
-        "transaction_detail": [],
-        "transaction_payee": [
-            {
-                "name": "payee name 1",
-                "email": "payee1@yopmail.com",
-                "addressLine1": "sssssss",
-                "country": "Ecuador",
-                "city": "Cantón San Fernando",
-                "state": "Azuay",
-                "zipCode": null,
-                "phone": "(593) 985-518903",
-                "payeeAccountNumber": "111111111",
-                "countryCode": "ECU",
-                "cityCode": "Ca1493",
-                "stateCode": "A"
-            }
-        ]
+    	"batchId": "715e1800-50ce-4b1c-a396-7f24ab484f08",
+    	"bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
+    	"type": "E-Check",
+    	"amount": 10.1,
+    	"date": "2023-05-09T05:00:00.000Z",
+    	"currencySymbol": "$",
+    	"transaction_detail": [],
+    	"payeeId": "bb8d929b-0008-4fcd-a1ed-75efb11d8be1"
     }
 parameters: []
 headers:
@@ -105,7 +90,7 @@ authentication:
   disabled: false
   token: "{{JWT_TOKEN}}"
   prefix: ""
-metaSortKey: -1681506743226
+metaSortKey: -1681506743225.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

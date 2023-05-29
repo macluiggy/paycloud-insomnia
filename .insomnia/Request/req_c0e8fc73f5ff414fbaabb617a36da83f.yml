@@ -1,7 +1,7 @@
 _id: req_c0e8fc73f5ff414fbaabb617a36da83f
 type: Request
 parentId: fld_c132c82a1f9446edb5a823d40aea68f6
-modified: 1682701923010
+modified: 1684774236887
 created: 1682624938731
 url: "{{local_url}}/data/sources"
 name: create by flat file
@@ -110,6 +110,7 @@ body:
       name: data_file_source
       value: '{"locationFile":"MANUAL_UPLOAD","fileType":"STANDARD","columnSeparator":"\t"}'
       description: ""
+      disabled: false
     - id: pair_9d43ca7f03824196a6dac275e712c67d
       name: sourceTestFile
       value: ""
