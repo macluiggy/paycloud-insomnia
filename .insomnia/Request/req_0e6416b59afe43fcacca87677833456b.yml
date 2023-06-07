@@ -1,7 +1,7 @@
 _id: req_0e6416b59afe43fcacca87677833456b
 type: Request
 parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
-modified: 1685230871653
+modified: 1685406685178
 created: 1681506743252
 url: "{{local_url}}/transactions/approve"
 name: Approve Transactions
@@ -14,7 +14,7 @@ body:
     	"bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
     	"transactions": [
     		{
-    			"transactionId": "261c1d09-9cc0-487f-b99a-5baed1c5cd22"
+    			"transactionId": "a96e6dc3-ea09-4905-a706-89325d74324b"
     		}
     	]
     }

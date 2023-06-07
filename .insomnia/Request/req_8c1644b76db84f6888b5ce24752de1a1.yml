@@ -1,10 +1,9 @@
 _id: req_8c1644b76db84f6888b5ce24752de1a1
 type: Request
 parentId: fld_f6260d6ed41b422b82fbc2ecb261bedd
-modified: 1682121430692
+modified: 1685407627711
 created: 1681506743222
-url: "{{local_url}}/batches/a5b8c7e1-86d2-4dbc-9df7-7ecb15973716?companyId=bb43\
-  0618-5011-4dd5-8e1e-0498a3a47ec4"
+url: "{{local_url}}/batches/f2a29d97-a752-4ab4-be30-370c24c73903"
 name: Single Batch
 description: This endpoint fetches the batch data using its **id**
 method: GET

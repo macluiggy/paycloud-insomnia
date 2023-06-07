@@ -1,7 +1,7 @@
 _id: req_2d972a210be649d79056f3ae01cb0a3a
 type: Request
 parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
-modified: 1681506743248
+modified: 1685408661446
 created: 1681506743248
 url: "{{local_url}}/transactions/sign"
 name: Sign Transactions
@@ -9,15 +9,15 @@ description: ""
 method: POST
 body:
   mimeType: ""
-  text: "[\r
-
-    \    {\r
-
-    \        \"transactionId\": \"ca70c239-05b2-4951-95f8-73c75ec9ad6c\"\r
-
-    \    }\r
-
-    ]"
+  text: |-
+    {
+    	"bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
+    	"transactions": [
+    		{
+    			"transactionId": "b7471b47-b1c8-4efb-af09-942d77755910"
+    		}
+    	]
+    }
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_d819126fd97b4edbafb0f306b79db1de
 type: Request
 parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
-modified: 1684424484801
+modified: 1686159382367
 created: 1681506743288
 url: "{{local_url}}/users"
 name: Create User
@@ -41,7 +41,7 @@ body:
     - type: text
       name: email
       disabled: false
-      value: test35@imagineapps.co
+      value: test21@imagineapps.co
       id: pair_668a6a216d7f49afa1dda8922d83a872
     - type: text
       name: password
@@ -51,7 +51,7 @@ body:
     - type: text
       name: role
       disabled: false
-      value: admin
+      value: user
       id: pair_a9e343c56ef24859960d4ff87b79caf1
     - type: text
       name: fullName
@@ -60,8 +60,8 @@ body:
       id: pair_f8a95394886b49a59409b6372ed7ad4b
     - type: text
       name: companyId
-      disabled: false
-      value: 0b0d3847-43c0-4f4e-a864-589d0b608500
+      disabled: true
+      value: 503d35e8-567b-4603-81e1-ee5c818cc6ec
       id: pair_5622ac8ae6eb45429ce30554d739a5ec
     - id: pair_016cea4556db4356a612163bf5d1fdc8
       name: chargeAdditionalUser

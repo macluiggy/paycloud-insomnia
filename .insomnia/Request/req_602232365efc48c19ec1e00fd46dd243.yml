@@ -1,9 +1,9 @@
 _id: req_602232365efc48c19ec1e00fd46dd243
 type: Request
 parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
-modified: 1682354492758
+modified: 1686163704502
 created: 1682354336056
-url: "{{ _.local_url }}/subscriptions/plan/c0d18110-5f7f-47a3-9be5-d40433aebe4f"
+url: "{{ _.local_url }}/subscriptions/plan/64ea2b23-ca40-4cf1-aac7-0354ac5f1904"
 name: /:id
 description: ""
 method: DELETE

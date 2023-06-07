@@ -1,9 +1,9 @@
 _id: req_2b397f16cd3e4048928057560c3ea62a
 type: Request
 parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
-modified: 1682522269123
+modified: 1685724483612
 created: 1682353255036
-url: "{{ _.local_url }}/subscriptions/plan/8616ba15-9ce9-45d0-94ee-0f7283b72e84"
+url: "{{ _.local_url }}/subscriptions/plan/5809ca6a-086d-4757-8bbf-a655309a3157"
 name: /:id
 description: ""
 method: PATCH
@@ -11,8 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "updated",
-    	"amount": "222"
+    	"name": "borrar updated"
     }
 parameters:
   - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58

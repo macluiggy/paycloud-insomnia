@@ -1,15 +1,221 @@
 _id: req_245d7c3b8d6e47e69a4373bfc29d52c8
 type: Request
 parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
-modified: 1682009077058
+modified: 1685571344022
 created: 1681506743276
 url: "{{local_url}}/users/0f148eaf-4deb-4e55-adc8-4f0c6bcca36d"
 name: Single User
 description: This endpoint fetches the basic information about the user using its **id**
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id": "evt_1NDxITFjTck1vBSzYtlkb2Zm",
+    	"object": "event",
+    	"api_version": "2022-11-15",
+    	"created": 1685571312,
+    	"data": {
+    		"object": {
+    			"id": "in_1NDxIRFjTck1vBSzkwOfNQDO",
+    			"object": "invoice",
+    			"account_country": "US",
+    			"account_name": null,
+    			"account_tax_ids": null,
+    			"amount_due": 14900,
+    			"amount_paid": 14900,
+    			"amount_remaining": 0,
+    			"amount_shipping": 0,
+    			"application": null,
+    			"application_fee_amount": null,
+    			"attempt_count": 1,
+    			"attempted": true,
+    			"auto_advance": false,
+    			"automatic_tax": {
+    				"enabled": false,
+    				"status": null
+    			},
+    			"billing_reason": "subscription_create",
+    			"charge": "ch_3NDxIRFjTck1vBSz0ujRZNk0",
+    			"collection_method": "charge_automatically",
+    			"created": 1685571311,
+    			"currency": "usd",
+    			"custom_fields": null,
+    			"customer": "cus_NzxCtcRBTPppoT",
+    			"customer_address": {
+    				"city": null,
+    				"country": null,
+    				"line1": "Florida",
+    				"line2": null,
+    				"postal_code": null,
+    				"state": null
+    			},
+    			"customer_email": null,
+    			"customer_name": "Printech Global Secure Payment Solutions",
+    			"customer_phone": null,
+    			"customer_shipping": null,
+    			"customer_tax_exempt": "none",
+    			"customer_tax_ids": [],
+    			"default_payment_method": null,
+    			"default_source": null,
+    			"default_tax_rates": [],
+    			"description": null,
+    			"discount": null,
+    			"discounts": [],
+    			"due_date": null,
+    			"ending_balance": 0,
+    			"footer": null,
+    			"from_invoice": null,
+    			"hosted_invoice_url": "https://invoice.stripe.com/i/acct_1NBpzuFjTck1vBSz/test_YWNjdF8xTkJwenVGalRjazF2QlN6LF9OenhDYVQ4UGxwWnJpTzVaT3RZRHFzQ2szOUlpT294LDc2MTEyMTEz0200ygEcDzXo?s=ap",
+    			"invoice_pdf": "https://pay.stripe.com/invoice/acct_1NBpzuFjTck1vBSz/test_YWNjdF8xTkJwenVGalRjazF2QlN6LF9OenhDYVQ4UGxwWnJpTzVaT3RZRHFzQ2szOUlpT294LDc2MTEyMTEz0200ygEcDzXo/pdf?s=ap",
+    			"last_finalization_error": null,
+    			"latest_revision": null,
+    			"lines": {
+    				"object": "list",
+    				"data": [
+    					{
+    						"id": "il_1NDxIRFjTck1vBSziGka8LrZ",
+    						"object": "line_item",
+    						"amount": 14900,
+    						"amount_excluding_tax": 14900,
+    						"currency": "usd",
+    						"description": "1 × pro (at $149.00 / day)",
+    						"discount_amounts": [],
+    						"discountable": true,
+    						"discounts": [],
+    						"livemode": false,
+    						"metadata": {
+    							"companyId": "503d35e8-567b-4603-81e1-ee5c818cc6ec"
+    						},
+    						"period": {
+    							"end": 1685657710,
+    							"start": 1685571310
+    						},
+    						"plan": {
+    							"id": "price_1ND8l9FjTck1vBSzdXLkViGs",
+    							"object": "plan",
+    							"active": true,
+    							"aggregate_usage": null,
+    							"amount": 14900,
+    							"amount_decimal": "14900",
+    							"billing_scheme": "per_unit",
+    							"created": 1685377047,
+    							"currency": "usd",
+    							"interval": "day",
+    							"interval_count": 1,
+    							"livemode": false,
+    							"metadata": {
+    								"planId": "9f227241-507d-4b14-945e-88c02b1a717a"
+    							},
+    							"nickname": null,
+    							"product": "prod_Nz6zp6u6Y62FTV",
+    							"tiers_mode": null,
+    							"transform_usage": null,
+    							"trial_period_days": null,
+    							"usage_type": "licensed"
+    						},
+    						"price": {
+    							"id": "price_1ND8l9FjTck1vBSzdXLkViGs",
+    							"object": "price",
+    							"active": true,
+    							"billing_scheme": "per_unit",
+    							"created": 1685377047,
+    							"currency": "usd",
+    							"custom_unit_amount": null,
+    							"livemode": false,
+    							"lookup_key": null,
+    							"metadata": {
+    								"planId": "9f227241-507d-4b14-945e-88c02b1a717a"
+    							},
+    							"nickname": null,
+    							"product": "prod_Nz6zp6u6Y62FTV",
+    							"recurring": {
+    								"aggregate_usage": null,
+    								"interval": "day",
+    								"interval_count": 1,
+    								"trial_period_days": null,
+    								"usage_type": "licensed"
+    							},
+    							"tax_behavior": "unspecified",
+    							"tiers_mode": null,
+    							"transform_quantity": null,
+    							"type": "recurring",
+    							"unit_amount": 14900,
+    							"unit_amount_decimal": "14900"
+    						},
+    						"proration": false,
+    						"proration_details": {
+    							"credited_items": null
+    						},
+    						"quantity": 1,
+    						"subscription": "sub_1NDxIRFjTck1vBSzLHjSUvhx",
+    						"subscription_item": "si_NzxCHzKAlNSvoQ",
+    						"tax_amounts": [],
+    						"tax_rates": [],
+    						"type": "subscription",
+    						"unit_amount_excluding_tax": "14900"
+    					}
+    				],
+    				"has_more": false,
+    				"total_count": 1,
+    				"url": "/v1/invoices/in_1NDxIRFjTck1vBSzkwOfNQDO/lines"
+    			},
+    			"livemode": false,
+    			"metadata": {},
+    			"next_payment_attempt": null,
+    			"number": "43574F31-0001",
+    			"on_behalf_of": null,
+    			"paid": true,
+    			"paid_out_of_band": false,
+    			"payment_intent": "pi_3NDxIRFjTck1vBSz0H9TLrcl",
+    			"payment_settings": {
+    				"default_mandate": null,
+    				"payment_method_options": null,
+    				"payment_method_types": null
+    			},
+    			"period_end": 1685571310,
+    			"period_start": 1685571310,
+    			"post_payment_credit_notes_amount": 0,
+    			"pre_payment_credit_notes_amount": 0,
+    			"quote": null,
+    			"receipt_number": null,
+    			"rendering_options": null,
+    			"shipping_cost": null,
+    			"shipping_details": null,
+    			"starting_balance": 0,
+    			"statement_descriptor": null,
+    			"status": "paid",
+    			"status_transitions": {
+    				"finalized_at": 1685571311,
+    				"marked_uncollectible_at": null,
+    				"paid_at": 1685571310,
+    				"voided_at": null
+    			},
+    			"subscription": "sub_1NDxIRFjTck1vBSzLHjSUvhx",
+    			"subtotal": 14900,
+    			"subtotal_excluding_tax": 14900,
+    			"tax": null,
+    			"test_clock": null,
+    			"total": 14900,
+    			"total_discount_amounts": [],
+    			"total_excluding_tax": 14900,
+    			"total_tax_amounts": [],
+    			"transfer_data": null,
+    			"webhooks_delivered_at": null
+    		}
+    	},
+    	"livemode": false,
+    	"pending_webhooks": 2,
+    	"request": {
+    		"id": "req_H5e1c1Wa8qLbsf",
+    		"idempotency_key": "e249076f-8efe-4c67-813f-b97f152bb680"
+    	},
+    	"type": "invoice.created"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   disabled: false

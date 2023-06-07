@@ -1,7 +1,7 @@
 _id: req_d731f36a4c29499b99ccb5a604c8eab8
 type: Request
 parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
-modified: 1685155977167
+modified: 1686173598722
 created: 1682354231429
 url: "{{ _.local_url }}/subscriptions/plan"
 name: /
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "pro",
-    	"amount": 149,
-    	"billingInterval": "Monthly"
+    	"name": "pro day",
+    	"amount": 5,
+    	"billingInterval": "day"
     }
 parameters:
   - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58

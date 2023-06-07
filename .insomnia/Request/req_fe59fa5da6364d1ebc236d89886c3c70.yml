@@ -1,7 +1,7 @@
 _id: req_fe59fa5da6364d1ebc236d89886c3c70
 type: Request
 parentId: fld_aede65bc15f544efbfe5c9a75daafa72
-modified: 1683560870025
+modified: 1686168865500
 created: 1682361238494
 url: "{{ _.local_url }}/subscriptions/feature"
 name: /
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "automatic ach/eft generation"
+    	"name": "borrar"
     }
 parameters:
   - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58

@@ -1,7 +1,7 @@
 _id: req_bb11456cf874415fa26da3a6fc14030f
 type: Request
 parentId: fld_5d9db9603ce24175a66f418584c57b13
-modified: 1683815816990
+modified: 1685747000754
 created: 1683815788356
 url: "{{local_url}}/batches/manual-import"
 name: Manual Import ach
@@ -27,19 +27,20 @@ body:
     - type: text
       name: batchId
       disabled: false
-      value: 6076fccc-56ec-4ee9-af9b-a8fce639a254
+      value: 715e1800-50ce-4b1c-a396-7f24ab484f08
       id: pair_e8eb2769214b4f45a12a10ab9711f194
     - type: text
       name: bankAccountId
       disabled: false
-      value: 336dec71-178b-4b42-8c39-5772892263ec
+      value: 6db8adda-6f83-48c9-86c5-2bcf98e11f49
       id: pair_c39b8858e5c44a78ba63242eb71075f2
     - id: pair_f235041e91874b1d899f508463b5a001
       name: flatFileToUpload
       value: ""
       description: ""
       type: file
-      fileName: /home/luiggy/Documents/PROGRAMMING/IMAGINEAPPS/standard_file_v2.txt
+      fileName: /home/luiggy/Documents/PROGRAMMING/IMAGINEAPPS/standard_file_v2 (copy
+        1).txt
 parameters: []
 headers: []
 authentication:

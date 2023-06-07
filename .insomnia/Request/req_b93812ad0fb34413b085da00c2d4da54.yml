@@ -1,7 +1,7 @@
 _id: req_b93812ad0fb34413b085da00c2d4da54
 type: Request
 parentId: fld_2ae71d5edfe5406bb1668ffb23d1f7d6
-modified: 1685236981693
+modified: 1685409237979
 created: 1681506743234
 url: "{{local_url}}/transactions/output"
 name: Output Transactions
@@ -14,7 +14,7 @@ body:
     	"bankAccountId": "7aa4905f-677b-495d-aafe-597a603639b3",
     	"transactions": [
     		{
-    			"transactionId": "0ad2beee-b13c-4c7a-b8af-b6ba0e24900d"
+    			"transactionId": "b7471b47-b1c8-4efb-af09-942d77755910"
     		}
     	]
     }
