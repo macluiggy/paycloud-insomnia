@@ -1,7 +1,7 @@
 _id: req_d819126fd97b4edbafb0f306b79db1de
 type: Request
 parentId: fld_3a1a5c9b1e4e44bcb73d297d475235f9
-modified: 1686159382367
+modified: 1686240072801
 created: 1681506743288
 url: "{{local_url}}/users"
 name: Create User
@@ -41,7 +41,7 @@ body:
     - type: text
       name: email
       disabled: false
-      value: test21@imagineapps.co
+      value: test22@imagineapps.co
       id: pair_668a6a216d7f49afa1dda8922d83a872
     - type: text
       name: password

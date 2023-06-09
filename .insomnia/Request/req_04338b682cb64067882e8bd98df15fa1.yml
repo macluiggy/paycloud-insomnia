@@ -1,32 +1,24 @@
-_id: req_d731f36a4c29499b99ccb5a604c8eab8
+_id: req_04338b682cb64067882e8bd98df15fa1
 type: Request
-parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
-modified: 1686239248409
-created: 1682354231429
-url: "{{ _.local_url }}/subscriptions/plan"
-name: /
+parentId: fld_072844a01644457097c9253d70c237d5
+modified: 1686106574967
+created: 1686106571887
+url: "{{ _.local_url }}/subscriptions/checkout"
+name: /checkout
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "borrar",
-    	"amount": 5,
-    	"billingInterval": "day"
+    	"planId": "9f227241-507d-4b14-945e-88c02b1a717a",
+    	"paymentMethodId": "pm_1NDDayFjTck1vBSzsjNXwmcw",
+    	"trialDays": 14
     }
 parameters:
   - id: pair_3e08d5d4b748493cbdfe782cbbaf1c58
     name: name
     value: r
-    description: ""
-  - id: pair_6b205181358f4ba1b55673ccc850cffd
-    name: size
-    value: "1"
-    description: ""
-  - id: pair_5bdc082deb664bfb98e06bf2308646aa
-    name: page
-    value: "2"
     description: ""
 headers:
   - name: Content-Type
@@ -35,7 +27,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.JWT_TOKEN }}"
-metaSortKey: -1681510479460.875
+metaSortKey: -1681510412734.7656
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

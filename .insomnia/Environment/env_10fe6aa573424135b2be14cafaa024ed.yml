@@ -1,0 +1,30 @@
+_id: env_10fe6aa573424135b2be14cafaa024ed
+type: Environment
+parentId: env_1daba63de07ee5098dbb07256098b891c7efb581
+modified: 1686181911035
+created: 1686181895768
+name: develop
+data:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2ODExNTQxOTksImV4cCI6MTY4MTI0MDU5OX0.QKMWV5-iPF93KzU8MpPfZs1RBd-R4d7tmqLgcUQdvLM
+  local_url: http://localhost:3000/api/v1
+  JWT_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNzc1YjY1Yi1hZWI2LTQ0ZDktYjA3NS1jMDMyMTlhZjQxNTgiLCJyb2xlIjoiYWRtaW4iLCJjb21wYW55IjoiNTAzZDM1ZTgtNTY3Yi00NjAzLTgxZTEtZWU1YzgxOGNjNmVjIiwiaWF0IjoxNjg0OTQxMTk2LCJleHAiOjE2ODc1MzMxOTZ9.zLiFTbqPJKAnDHbViFsqkl3IoQt8NQNzfPYsElORIk4
+  checkNumber: "12345"
+  routingNumber: "001001"
+  accountNumber: "54321"
+  bank_name: Banco Pichincha
+  check_date: check_date
+  payor_name: payor_name
+dataPropertyOrder:
+  "&":
+    - token
+    - local_url
+    - JWT_TOKEN
+    - checkNumber
+    - routingNumber
+    - accountNumber
+    - bank_name
+    - check_date
+    - payor_name
+color: null
+isPrivate: false
+metaSortKey: 1686181895768

@@ -1,0 +1,48 @@
+_id: req_7b5a83f0c534490abbef09adb4684ceb
+type: Request
+parentId: fld_0aaada7e164c43baa7f4b79ab1558600
+modified: 1686181765608
+created: 1686181755069
+url: https://stage.paycloudplus.com/api/v1/auth/login
+name: Login (stage)
+description: >-
+  The service has a email and password validation, if the data are correct the
+  service return a JWT sign with a secret key and expired in 1 Day
+
+
+  ### Request:
+
+
+  | **Field** | **Type** | **Required** |
+
+  | --- | --- | --- |
+
+  | email | String | Yes |
+
+  | password | String | Yes |
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "luiggy.macias@imagineapps.co",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b06b7db7887e4abbac1d6f82ba425be2
+authentication:
+  type: bearer
+  disabled: true
+  token: "{{JWT_TOKEN}}"
+  prefix: ""
+metaSortKey: -1681506743518
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

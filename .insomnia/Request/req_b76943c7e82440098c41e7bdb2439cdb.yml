@@ -1,9 +1,9 @@
 _id: req_b76943c7e82440098c41e7bdb2439cdb
 type: Request
 parentId: fld_0b95b2f8e80f42389c3a21297dcb6e7e
-modified: 1682372947333
+modified: 1686239524668
 created: 1682352882382
-url: "{{ _.local_url }}/subscriptions/plan/c0d18110-5f7f-47a3-9be5-d40433aebe4f"
+url: "{{ _.local_url }}/subscriptions/plan/731f21f5-a974-4f16-ad52-4975a7e85e19"
 name: /:id
 description: ""
 method: GET

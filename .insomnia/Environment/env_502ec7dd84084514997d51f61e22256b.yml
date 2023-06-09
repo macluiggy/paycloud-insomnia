@@ -1,0 +1,30 @@
+_id: env_502ec7dd84084514997d51f61e22256b
+type: Environment
+parentId: env_1daba63de07ee5098dbb07256098b891c7efb581
+modified: 1686181876054
+created: 1686181834985
+name: stage
+data:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2ODExNTQxOTksImV4cCI6MTY4MTI0MDU5OX0.QKMWV5-iPF93KzU8MpPfZs1RBd-R4d7tmqLgcUQdvLM
+  local_url: https://stage.paycloudplus.com/api/v1
+  JWT_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNzc1YjY1Yi1hZWI2LTQ0ZDktYjA3NS1jMDMyMTlhZjQxNTgiLCJyb2xlIjoiYWRtaW4iLCJjb21wYW55IjoiNTAzZDM1ZTgtNTY3Yi00NjAzLTgxZTEtZWU1YzgxOGNjNmVjIiwiaWF0IjoxNjg0OTQxMTk2LCJleHAiOjE2ODc1MzMxOTZ9.zLiFTbqPJKAnDHbViFsqkl3IoQt8NQNzfPYsElORIk4
+  checkNumber: "12345"
+  routingNumber: "001001"
+  accountNumber: "54321"
+  bank_name: Banco Pichincha
+  check_date: check_date
+  payor_name: payor_name
+dataPropertyOrder:
+  "&":
+    - token
+    - local_url
+    - JWT_TOKEN
+    - checkNumber
+    - routingNumber
+    - accountNumber
+    - bank_name
+    - check_date
+    - payor_name
+color: null
+isPrivate: false
+metaSortKey: 1686181834985
